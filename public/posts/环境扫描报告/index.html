@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/FeiWang1998.github.io/livereload.js?mindelay=10&amp;v=2&amp;port=1314&amp;path=FeiWang1998.github.io/livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Faye的笔记本</title>
+<meta name="keywords" content="">
+<meta name="description" content="🔍 电脑环境扫描报告
+
+扫描时间：2026-06-02
+用户目录：C:\Users\wf980
+
+
+💻 开发工具
+
+	
+			
+					工具
+					版本 / 路径
+			
+	
+	
+			
+					Python
+					3.13.5（Anaconda，路径：/d/anaconda3/python）
+			
+			
+					Node.js
+					v24.14.0
+			
+			
+					npm
+					随 Node.js 安装
+			
+			
+					Git
+					2.47.1.windows.1
+			
+			
+					VS Code
+					已安装
+			
+			
+					Cursor
+					已安装
+			
+			
+					Docker
+					已安装
+			
+	
+
+
+🤖 AI 工具
+你的 AI 编码助手配置相当齐全：">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/FeiWang1998.github.io/posts/%E7%8E%AF%E5%A2%83%E6%89%AB%E6%8F%8F%E6%8A%A5%E5%91%8A/">
+<link crossorigin="anonymous" href="http://localhost:1313/FeiWang1998.github.io/assets/css/stylesheet.89ca4972ab5e6aaa05e9a0dae0c4bb64b26585bc79e36f5cf33614eea0283abe.css" integrity="sha256-icpJcqteaqoF6aDa4MS7ZLJlhbx5429c8zYU7qAoOr4=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/FeiWang1998.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/FeiWang1998.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/FeiWang1998.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/FeiWang1998.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/FeiWang1998.github.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/FeiWang1998.github.io/posts/%E7%8E%AF%E5%A2%83%E6%89%AB%E6%8F%8F%E6%8A%A5%E5%91%8A/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="header-nav">
+        <div class="logo">
+            <a href="http://localhost:1313/FeiWang1998.github.io/" accesskey="h" title="Faye的笔记本 (Alt + H)">Faye的笔记本</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu" class="menu">
+            <li>
+                <a href="http://localhost:1313/posts/" title="文章">
+                    <span>文章</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/categories/" title="分类">
+                    <span>分类</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/tags/" title="标签">
+                    <span>标签</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/about/" title="关于">
+                    <span>关于</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      
+    </h1>
+    <div class="post-meta">
+
+
+
+</div>
+  </header> 
+  <div class="post-content md-content"><h1 id="-电脑环境扫描报告">🔍 电脑环境扫描报告<a hidden class="anchor" aria-hidden="true" href="#-电脑环境扫描报告">#</a></h1>
+<blockquote>
+<p>扫描时间：2026-06-02<br>
+用户目录：<code>C:\Users\wf980</code></p>
+</blockquote>
+<hr>
+<h2 id="-开发工具">💻 开发工具<a hidden class="anchor" aria-hidden="true" href="#-开发工具">#</a></h2>
+<table>
+	<thead>
+			<tr>
+					<th>工具</th>
+					<th>版本 / 路径</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>Python</strong></td>
+					<td>3.13.5（Anaconda，路径：<code>/d/anaconda3/python</code>）</td>
+			</tr>
+			<tr>
+					<td><strong>Node.js</strong></td>
+					<td>v24.14.0</td>
+			</tr>
+			<tr>
+					<td><strong>npm</strong></td>
+					<td>随 Node.js 安装</td>
+			</tr>
+			<tr>
+					<td><strong>Git</strong></td>
+					<td>2.47.1.windows.1</td>
+			</tr>
+			<tr>
+					<td><strong>VS Code</strong></td>
+					<td>已安装</td>
+			</tr>
+			<tr>
+					<td><strong>Cursor</strong></td>
+					<td>已安装</td>
+			</tr>
+			<tr>
+					<td><strong>Docker</strong></td>
+					<td>已安装</td>
+			</tr>
+	</tbody>
+</table>
+<hr>
+<h2 id="-ai-工具">🤖 AI 工具<a hidden class="anchor" aria-hidden="true" href="#-ai-工具">#</a></h2>
+<p>你的 AI 编码助手配置相当齐全：</p>
+<table>
+	<thead>
+			<tr>
+					<th>工具</th>
+					<th>状态</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>Claude Code</strong></td>
+					<td>✅ 当前活跃（已使用 7 次）</td>
+			</tr>
+			<tr>
+					<td><strong>Gemini</strong></td>
+					<td>已配置</td>
+			</tr>
+			<tr>
+					<td><strong>Codex</strong></td>
+					<td>已配置</td>
+			</tr>
+			<tr>
+					<td><strong>Cline</strong></td>
+					<td>已配置</td>
+			</tr>
+			<tr>
+					<td><strong>Cursor</strong></td>
+					<td>已配置</td>
+			</tr>
+			<tr>
+					<td><strong>Copilot</strong></td>
+					<td>已配置</td>
+			</tr>
+			<tr>
+					<td><strong>Kimi</strong></td>
+					<td>已下载客户端（<code>kimi_3.0.12.exe</code>）</td>
+			</tr>
+			<tr>
+					<td><strong>通义千问 (Qianwen)</strong></td>
+					<td>已下载客户端（<code>Qianwen_V3.2.6.48.exe</code>）</td>
+			</tr>
+	</tbody>
+</table>
+<hr>
+<h2 id="-重要目录与项目">📂 重要目录与项目<a hidden class="anchor" aria-hidden="true" href="#-重要目录与项目">#</a></h2>
+<h3 id="主目录结构">主目录结构<a hidden class="anchor" aria-hidden="true" href="#主目录结构">#</a></h3>
+<pre tabindex="0"><code>C:\Users\wf980\
+├── Desktop/          # 桌面（教学文件、项目、快捷方式）
+├── Documents/        # 文档（参考文献、虚拟机、Navicat 等）
+├── Downloads/        # 下载（大量教学相关 Excel/CSV/文档）
+├── Pictures/         # 图片（截图、drawio 绘图）
+├── OneDrive/         # OneDrive 云存储
+├── .claude/          # Claude Code 配置
+├── .cursor/          # Cursor 配置
+├── .vscode/          # VS Code 配置
+└── .ssh/             # SSH 密钥
+</code></pre><h3 id="主要项目">主要项目<a hidden class="anchor" aria-hidden="true" href="#主要项目">#</a></h3>
+<table>
+	<thead>
+			<tr>
+					<th>项目</th>
+					<th>路径</th>
+					<th>说明</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>NPJ-codes-main</strong></td>
+					<td><code>~/Desktop/NPJ-codes-main/</code></td>
+					<td>机器学习项目：XAI、LightGBM、SHAP、信用评级模型，含 Jupyter Notebook</td>
+			</tr>
+			<tr>
+					<td><strong>毕业论文</strong></td>
+					<td><code>~/Desktop/毕业论文/</code></td>
+					<td>毕业论文相关材料</td>
+			</tr>
+			<tr>
+					<td><strong>教材机器学习</strong></td>
+					<td><code>~/Desktop/教材机器学习/</code></td>
+					<td>机器学习教材</td>
+			</tr>
+			<tr>
+					<td><strong>人才需求报告</strong></td>
+					<td><code>~/Desktop/人才需求报告-2026/</code></td>
+					<td>2026 年人才需求报告</td>
+			</tr>
+			<tr>
+					<td><strong>职称评审</strong></td>
+					<td><code>~/Desktop/职称评审/</code></td>
+					<td>职称评审材料</td>
+			</tr>
+			<tr>
+					<td><strong>课题申报</strong></td>
+					<td><code>~/Desktop/课题申报/</code></td>
+					<td>课题申报材料</td>
+			</tr>
+			<tr>
+					<td><strong>期刊模板</strong></td>
+					<td><code>~/Desktop/期刊模板/</code></td>
+					<td>期刊论文模板</td>
+			</tr>
+			<tr>
+					<td><strong>论文参考</strong></td>
+					<td><code>~/Documents/myreference.bib</code></td>
+					<td>参考文献库（85 KB）</td>
+			</tr>
+	</tbody>
+</table>
+<h3 id="教学相关">教学相关<a hidden class="anchor" aria-hidden="true" href="#教学相关">#</a></h3>
+<pre tabindex="0"><code>~/Desktop/
+├── 2025-2026-2期中教学检查/
+├── 2025-2026-2期初教学检查/
+├── 2025-2026-毕设指导/
+├── 26级人才培养方案/
+├── 《容器技术与应用》/
+├── 信息技术学院_ss/
+├── 行业老师课酬/
+└── 其他/
+</code></pre><hr>
+<h2 id="-我能提供的帮助">🎯 我能提供的帮助<a hidden class="anchor" aria-hidden="true" href="#-我能提供的帮助">#</a></h2>
+<table>
+	<thead>
+			<tr>
+					<th>类别</th>
+					<th>具体能力</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>代码开发</strong></td>
+					<td>Python 数据分析/机器学习代码、算法实现、Bug 调试、代码重构</td>
+			</tr>
+			<tr>
+					<td><strong>论文/文档</strong></td>
+					<td>Word/PDF/LaTeX 文档处理、参考文献整理（<code>.bib</code>）、格式转换</td>
+			</tr>
+			<tr>
+					<td><strong>数据处理</strong></td>
+					<td>Excel/CSV 批量处理（学生成绩、实习统计、课表等）</td>
+			</tr>
+			<tr>
+					<td><strong>项目管理</strong></td>
+					<td>文件整理、自动化重复性任务、批量重命名</td>
+			</tr>
+			<tr>
+					<td><strong>Git 版本控制</strong></td>
+					<td>仓库管理、提交、分支操作</td>
+			</tr>
+			<tr>
+					<td><strong>环境配置</strong></td>
+					<td>Python/Node 环境、Docker 容器、VS Code 配置</td>
+			</tr>
+			<tr>
+					<td><strong>文件搜索</strong></td>
+					<td>按名称/内容快速查找、批量操作</td>
+			</tr>
+			<tr>
+					<td><strong>Jupyter Notebook</strong></td>
+					<td>编辑、分析 <code>.ipynb</code> 文件</td>
+			</tr>
+			<tr>
+					<td><strong>自动化脚本</strong></td>
+					<td>教学表格处理、数据统计、流程自动化</td>
+			</tr>
+	</tbody>
+</table>
+<hr>
+<h2 id="-文件统计">📊 文件统计<a hidden class="anchor" aria-hidden="true" href="#-文件统计">#</a></h2>
+<table>
+	<thead>
+			<tr>
+					<th>位置</th>
+					<th>主要内容</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>Downloads/</strong></td>
+					<td>大量 Excel（<code>xlsx</code>/<code>xls</code>/<code>csv</code>）、Word 文档（<code>doc</code>/<code>docx</code>）、PDF、学生实习/成绩数据</td>
+			</tr>
+			<tr>
+					<td><strong>NPJ-codes-main/</strong></td>
+					<td>Jupyter Notebook、机器学习代码、数据集（<code>Dataset.zip</code> ~24MB）</td>
+			</tr>
+			<tr>
+					<td><strong>Pictures/</strong></td>
+					<td>截图、draw.io 流程图</td>
+			</tr>
+			<tr>
+					<td><strong>Documents/</strong></td>
+					<td>虚拟机、Navicat、WPS 云文件、参考文献</td>
+			</tr>
+	</tbody>
+</table>
+<hr>
+<h2 id="-推测">💡 推测<a hidden class="anchor" aria-hidden="true" href="#-推测">#</a></h2>
+<p>根据文件内容分析，你应该是 <strong>高校教师</strong>，从事 <strong>人工智能 / 机器学习</strong> 方向的教学和科研工作，可能任教课程包括：</p>
+<ul>
+<li>人工智能导论</li>
+<li>容器技术与应用</li>
+<li>机器学习相关课程</li>
+</ul>
+<p>研究方向涉及：<strong>信用评级、XAI（可解释人工智能）、LightGBM、联邦学习</strong>。</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>© 2026 Faye</span> · 
+
+    
+    
+    <span>
+        Powered by
+        <a href="https://gohugo.io/?utm_source=papermod" rel="noopener" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var toplink = document.getElementById("top-link");
+    window.onscroll = function () {
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
+        } else {
+            toplink.classList.add("hidden");
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>
