@@ -1,4 +1,13 @@
-<!doctype html><html lang=en dir=auto data-theme=auto><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="index, follow"><title>云计算基础 | Faye的笔记本</title><meta name=keywords content><meta name=description content="📘 第一次课：云计算基础
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/FeiWang1998.github.io/livereload.js?mindelay=10&amp;v=2&amp;port=1314&amp;path=FeiWang1998.github.io/livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>云计算基础 | Faye的笔记本</title>
+<meta name="keywords" content="">
+<meta name="description" content="📘 第一次课：云计算基础
 
 课程名称：《Docker 容器技术与应用项目教程》
 章节：项目1 — 云计算基础
@@ -53,7 +62,7 @@
 			
 					25-55 min
 					📖 1.2
-					必备知识：云计算概述 + 虚拟化技术
+					必备知识：云计算概述 &#43; 虚拟化技术
 			
 			
 					55-80 min
@@ -63,7 +72,7 @@
 			
 					80-90 min
 					📝
-					总结回顾 + 课后任务
+					总结回顾 &#43; 课后任务
 			
 	
 
@@ -72,19 +81,452 @@
 
 🎬 课堂导入：一个你每天都在经历的场景
 
-想一想：你今天用手机了吗？"><meta name=author content="AI"><link rel=canonical href=https://wangfei19986555-wq.github.io/FeiWang1998.github.io/posts/%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%AF%BE%E4%BA%91%E8%AE%A1%E7%AE%97%E5%9F%BA%E7%A1%80-%E8%AF%BE%E5%A0%82%E6%95%99%E5%AD%A6-%E5%8E%9F%E7%89%88/><link crossorigin=anonymous href=/FeiWang1998.github.io/assets/css/stylesheet.89ca4972ab5e6aaa05e9a0dae0c4bb64b26585bc79e36f5cf33614eea0283abe.css integrity="sha256-icpJcqteaqoF6aDa4MS7ZLJlhbx5429c8zYU7qAoOr4=" rel="preload stylesheet" as=style><link rel=icon href=https://wangfei19986555-wq.github.io/FeiWang1998.github.io/favicon.ico><link rel=icon type=image/png sizes=16x16 href=https://wangfei19986555-wq.github.io/FeiWang1998.github.io/favicon-16x16.png><link rel=icon type=image/png sizes=32x32 href=https://wangfei19986555-wq.github.io/FeiWang1998.github.io/favicon-32x32.png><link rel=apple-touch-icon href=https://wangfei19986555-wq.github.io/FeiWang1998.github.io/apple-touch-icon.png><link rel=mask-icon href=https://wangfei19986555-wq.github.io/FeiWang1998.github.io/safari-pinned-tab.svg><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><link rel=alternate hreflang=en href=https://wangfei19986555-wq.github.io/FeiWang1998.github.io/posts/%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%AF%BE%E4%BA%91%E8%AE%A1%E7%AE%97%E5%9F%BA%E7%A1%80-%E8%AF%BE%E5%A0%82%E6%95%99%E5%AD%A6-%E5%8E%9F%E7%89%88/><noscript><style>#theme-toggle,.top-link{display:none}</style><style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--code-block-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51);color-scheme:dark}.list{background:var(--theme)}.toc{background:var(--entry)}}</style></noscript><script>localStorage.getItem("pref-theme")==="dark"?document.querySelector("html").dataset.theme="dark":localStorage.getItem("pref-theme")==="light"?document.querySelector("html").dataset.theme="light":window.matchMedia("(prefers-color-scheme: dark)").matches?document.querySelector("html").dataset.theme="dark":document.querySelector("html").dataset.theme="light"</script><meta property="og:url" content="https://wangfei19986555-wq.github.io/FeiWang1998.github.io/posts/%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%AF%BE%E4%BA%91%E8%AE%A1%E7%AE%97%E5%9F%BA%E7%A1%80-%E8%AF%BE%E5%A0%82%E6%95%99%E5%AD%A6-%E5%8E%9F%E7%89%88/"><meta property="og:site_name" content="Faye的笔记本"><meta property="og:title" content="云计算基础"><meta property="og:description" content="📘 第一次课：云计算基础 课程名称：《Docker 容器技术与应用项目教程》
-章节：项目1 — 云计算基础
-课时：2 学时（90 分钟）
-主讲：王菲
-🎯 学习目标 目标层次 具体内容 🔵 了解 云计算的起源、基本概念 🟡 理解 虚拟化技术的基本概念、体系结构 🟢 掌握 VMware Workstation 安装及虚拟机创建 📋 课程结构（90分钟） 时间 环节 内容 0-5 min 🎬 导入 抛出问题 → 引出云计算 5-25 min 📖 1.1 项目陈述：什么是云计算 25-55 min 📖 1.2 必备知识：云计算概述 + 虚拟化技术 55-80 min 🛠 1.3 项目实施：VMware Workstation 安装 80-90 min 📝 总结回顾 + 课后任务 第一部分：项目陈述（10 min） 🎬 课堂导入：一个你每天都在经历的场景 想一想：你今天用手机了吗？"><meta property="og:locale" content="zh_cn"><meta property="og:type" content="article"><meta property="article:section" content="posts"><meta property="article:published_time" content="2026-06-02T00:00:00+00:00"><meta property="article:modified_time" content="2026-06-02T00:00:00+00:00"><meta name=twitter:card content="summary"><meta name=twitter:title content="云计算基础"><meta name=twitter:description content="📘 第一次课：云计算基础 课程名称：《Docker 容器技术与应用项目教程》
-章节：项目1 — 云计算基础
-课时：2 学时（90 分钟）
-主讲：王菲
-🎯 学习目标 目标层次 具体内容 🔵 了解 云计算的起源、基本概念 🟡 理解 虚拟化技术的基本概念、体系结构 🟢 掌握 VMware Workstation 安装及虚拟机创建 📋 课程结构（90分钟） 时间 环节 内容 0-5 min 🎬 导入 抛出问题 → 引出云计算 5-25 min 📖 1.1 项目陈述：什么是云计算 25-55 min 📖 1.2 必备知识：云计算概述 + 虚拟化技术 55-80 min 🛠 1.3 项目实施：VMware Workstation 安装 80-90 min 📝 总结回顾 + 课后任务 第一部分：项目陈述（10 min） 🎬 课堂导入：一个你每天都在经历的场景 想一想：你今天用手机了吗？"><script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Posts","item":"https://wangfei19986555-wq.github.io/FeiWang1998.github.io/posts/"},{"@type":"ListItem","position":2,"name":"云计算基础","item":"https://wangfei19986555-wq.github.io/FeiWang1998.github.io/posts/%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%AF%BE%E4%BA%91%E8%AE%A1%E7%AE%97%E5%9F%BA%E7%A1%80-%E8%AF%BE%E5%A0%82%E6%95%99%E5%AD%A6-%E5%8E%9F%E7%89%88/"}]}</script><script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"云计算基础","name":"云计算基础","description":"📘 第一次课：云计算基础 课程名称：《Docker 容器技术与应用项目教程》\n章节：项目1 — 云计算基础\n课时：2 学时（90 分钟）\n主讲：王菲\n🎯 学习目标 目标层次 具体内容 🔵 了解 云计算的起源、基本概念 🟡 理解 虚拟化技术的基本概念、体系结构 🟢 掌握 VMware Workstation 安装及虚拟机创建 📋 课程结构（90分钟） 时间 环节 内容 0-5 min 🎬 导入 抛出问题 → 引出云计算 5-25 min 📖 1.1 项目陈述：什么是云计算 25-55 min 📖 1.2 必备知识：云计算概述 + 虚拟化技术 55-80 min 🛠 1.3 项目实施：VMware Workstation 安装 80-90 min 📝 总结回顾 + 课后任务 第一部分：项目陈述（10 min） 🎬 课堂导入：一个你每天都在经历的场景 想一想：你今天用手机了吗？\n","keywords":[],"articleBody":"📘 第一次课：云计算基础 课程名称：《Docker 容器技术与应用项目教程》\n章节：项目1 — 云计算基础\n课时：2 学时（90 分钟）\n主讲：王菲\n🎯 学习目标 目标层次 具体内容 🔵 了解 云计算的起源、基本概念 🟡 理解 虚拟化技术的基本概念、体系结构 🟢 掌握 VMware Workstation 安装及虚拟机创建 📋 课程结构（90分钟） 时间 环节 内容 0-5 min 🎬 导入 抛出问题 → 引出云计算 5-25 min 📖 1.1 项目陈述：什么是云计算 25-55 min 📖 1.2 必备知识：云计算概述 + 虚拟化技术 55-80 min 🛠 1.3 项目实施：VMware Workstation 安装 80-90 min 📝 总结回顾 + 课后任务 第一部分：项目陈述（10 min） 🎬 课堂导入：一个你每天都在经历的场景 想一想：你今天用手机了吗？\n早上刷抖音看视频 → 视频存谁那？→ 存云端 用微信发照片给朋友 → 照片经过哪里？→ 云端服务器 打开淘宝逛了一圈 → 淘宝页面跑在哪？→ 阿里云 你用百度网盘存文件 → 文件实际存在哪里？→ 云端存储 🔑 核心认知：你不是在使用自己的手机/电脑的算力，而是在使用「云」上的计算资源。\n❓ 那么，到底什么是云计算？ 一句话总结：通过网络随时随地获取你需要的计算资源，就像拧开水龙头就有水一样。\n🏠 生活类比：从「打井」到「自来水」 时代 方式 类比 传统 IT 自己买服务器、建机房 → 像每家自己挖井取水 💰 投入大、维护累 云计算 按需从云端获取算力 → 像拧开水龙头用水 💡 按量付费、省心省力 传统模式：买服务器 → 装系统 → 部署应用 → 维护 → 扩容难 → 闲置浪费 云模式： 开账号 → 选配置 → 部署应用 → 自动维护 → 弹性扩容 → 按量付费 📖 云计算的定义（正式版） 云计算（Cloud Computing） 是一种基于网络的超级计算模式，将计算任务分布在大量计算机构成的资源池上，使各种应用系统能够根据需要获取计算力、存储空间和各种软件服务。\n☁️ 为什么叫「云」？ 云的特征 对应含义 云很大 计算集群规模庞大 云可伸缩 资源动态扩展/收缩 云的边界模糊 用户无需知道具体物理位置 云飘忽不定 底层硬件对用户透明 云确实存在 数据中心真实存在于某处 🔬 狭义 vs 广义 维度 狭义云计算 广义云计算 定义 通过网络提供 IT 基础设施资源 通过网络提供各种服务 比喻 像自来水厂供水 像整个公共服务网络 范围 硬件 + 软件 + 平台 包含一切可在线获取的服务 例子 买阿里云服务器 用钉钉、腾讯文档、网盘 🎓 讲给学生的总结：\n云计算不是一种新技术，而是一种新概念、新模式。\n它的核心思想是：以互联网为中心，让计算资源像水电一样流通。\n第二部分：必备知识 — 云计算概述（30 min） 一、云计算的起源与发展 📅 关键时间线 1959 ──── 克里斯托弗·斯特雷奇 提出「虚拟化」基本概念 │ ▼ （近 50 年技术积累……） │ 2006.03 ─ 亚马逊推出 AWS 弹性计算云（EC2/S3）→ 第一个商用云服务 2006.08 ─ Google CEO 施密特在搜索引擎大会首次提出「Cloud Computing」术语 │ ▼ 🎉 云计算正式诞生 │ 2010 ─ 中国工信部 + 发改委联合印发云计算试点通知 2015 ─ 工信部发布《云计算综合标准化体系建设指南》 │ ▼ 📡 进入广泛应用阶段 │ 至今 ─ 阿里云、华为云、腾讯云、AWS、Azure...百花齐放 🔄 计算模式的演变 集中时代 → 网络时代 → 分布式时代 → ☁️ 云时代 （大型机） （C/S架构） （网格计算） （云计算） 二、云计算的基本概念 2.1 三大服务模式（重点！⭐） 这 3 个概念是整个课程的基石，请务必理解！\n┌──────────────────────────────────────────────────────┐ │ 🍕 吃披萨的类比 │ ├──────────┬───────────────────┬─────────────────────────┤ │ 自己在家做 │ 点外卖 │ 去餐厅吃 │ │ 买面粉 │ 别人做好送上门 │ 什么都不用管 │ │ 买烤箱 │ 你只需准备餐具 │ 张嘴就吃 │ │ 买配料 │ 吃完不用洗碗 │ 吃完走人 │ │ 自己烤 │ │ │ ├──────────┼───────────────────┼─────────────────────────┤ │ IaaS │ PaaS │ SaaS │ │ 基础设施 │ 平台即服务 │ 软件即服务 │ └──────────┴───────────────────┴─────────────────────────┘ 服务模式 英文全称 你做什么 云厂商做什么 典型产品 IaaS Infrastructure as a Service 自己装系统、部署应用 提供服务器/网络/存储 阿里云ECS、AWS EC2 PaaS Platform as a Service 写代码即可 提供开发平台+中间件 Google App Engine SaaS Software as a Service 直接用 提供完整软件 Gmail、钉钉、Office 365 📊 三种模式对比 维度 IaaS PaaS SaaS 灵活性 ⭐⭐⭐⭐⭐ 最高 ⭐⭐⭐ 中等 ⭐ 最低 开发量 ⭐⭐⭐⭐⭐ 最多 ⭐⭐ 较少 无需开发 控制力 完全可控 只控应用 不可控 适用场景 运维能力强的大企业 创业团队快速开发 普通用户/中小企业 类比 买车自己开 打车（司机开） 坐公交车 🔗 三层关系 IaaS 是底层基础 → PaaS 建立在 IaaS 之上 → SaaS 面向最终用户\nSaaS ← 最终用户使用（如：你用网盘存文件） ↓ PaaS ← 开发者使用（如：调用云数据库 API） ↓ IaaS ← 运维人员管理（如：配置虚拟服务器） 2.2 四大部署模式 模式 说明 优点 缺点 典型场景 公有云 🔵 第三方提供，互联网访问 成本低、免维护 数据不在本地 个人/创业公司 私有云 🟢 专属单一组织使用 安全可控 自己出钱运维 银行/政府 混合云 🟠 公有 + 私有组合 兼顾安全与弹性 架构复杂 大型企业 社区云 ⚪ 几个组织共享 分摊成本 较少见 行业协会/联盟 💡 一句话选型指南：没钱没数据 → 公有云；有钱有数据 → 私有云；两者都要 → 混合云。\n2.3 云计算的生态系统 ┌──────────┐ │ 安全 │ ← 贯穿所有层 └──────────┘ ┌─────────────────────────────┐ │ 服 务 │ ← 云服务 + 云支撑服务 ├─────────────────────────────┤ │ 软 件 │ ← 资源调度、云平台软件 ├─────────────────────────────┤ │ 硬 件 │ ← 服务器、存储、网络设备 ├─────────────────────────────┤ │ 网 络 │ ← 电信网、互联网、广电网 └─────────────────────────────┘ 三、云计算的特征 特征 含义 大白话 🔄 按需自助服务 不用找人工，自己在线开通 像网购一样自助下单 🌐 广泛的网络访问 手机/电脑/平板都能连 有网就能用 📦 资源池化 多用户共享计算资源池 像水库供水给全城 ⚡ 快速弹性 需要就扩，不用就缩 双11扩容，平时缩回来 📊 按量计费 用多少付多少钱 像交水费，看表计价 🎯 核心价值：把 IT 从「固定资产」变成「流动费用」，企业不需要为「万一要用」而买一堆闲置服务器。\n🍵 课间休息（5 min） 第三部分：必备知识 — 虚拟化技术（25 min） ❓ 为什么云计算需要虚拟化？ 核心问题：一台物理服务器很强大，但 15% 的利用率太浪费。怎么办？\n答案：虚拟化！一台物理机 → 多台虚拟机，利用率可达 60%+。\n┌─────────────────────────────────────────────────┐ │ 虚拟化前 vs 虚拟化后 │ ├────────────────────┬────────────────────────────┤ │ 虚拟化前 │ 虚拟化后 │ │ 1 台物理机 │ 1 台物理机 │ │ 1 个操作系统 │ N 个虚拟机（各自独立 OS） │ │ 利用率 ~15% │ 利用率 ~60%+ │ │ 应用绑定硬件 │ 应用可自由迁移 │ │ 资源争抢冲突 │ 资源隔离、互不影响 │ └────────────────────┴────────────────────────────┘ 一、什么是虚拟化？ 虚拟化：把物理资源转变为逻辑上可管理的资源，打破物理结构的壁垒。\n🏢 类比：一栋大楼 → 隔成多个房间 → 每个房间独立出租，互不干扰。\n物理服务器 = 大楼，虚拟机 = 房间，Hypervisor = 隔墙和门禁系统。\n二、虚拟化体系结构 ┌─────────────────────────────────────────┐ │ 虚拟机1 │ 虚拟机2 │ 虚拟机3 │ ← Guest（客户机） │ (Windows) │ (Linux) │ (Linux) │ ├─────────────────────────────────────────┤ │ Hypervisor (VMM) │ ← 虚拟机监控器 │ 管理虚拟机运行、资源分配和隔离 │ ├─────────────────────────────────────────┤ │ 物理硬件（CPU/内存/硬盘/网卡） │ ← Host（宿主机） └─────────────────────────────────────────┘ Hypervisor 的两种类型 类型 原生型（裸机型）Native 宿主型（托管型）Hosted 运行位置 直接跑在硬件上 跑在操作系统之上 性能损耗 较小 较大 典型产品 VMware ESXi、Hyper-V VMware Workstation、VirtualBox 适用场景 🏢 企业生产环境 🏠 个人实验/测试 类比 独栋别墅，地基自己打 公寓楼，依赖大楼结构 🎓 记忆技巧：\n原生型 = 裸奔 = Bare-metal → 企业用\n宿主型 = 寄生 = Hosted → 学习用（我们的课程用 VMware Workstation）\n三、虚拟化的分类 虚拟化 ├── 平台虚拟化 ───── 针对计算机和操作系统 │ ├── 服务器虚拟化 → VMware ESXi、Hyper-V、XenServer │ └── 桌面虚拟化 → 远程桌面、云桌面 │ ├── 资源虚拟化 ───── 针对特定计算资源 │ ├── 存储虚拟化 → 多块硬盘 → 逻辑存储池 │ └── 网络虚拟化 → 网格计算、SDN │ └── 应用程序虚拟化 ── 针对软件运行环境 ├── Java 虚拟机（JVM） └── Docker 容器（后续课程重点！） 四、全虚拟化 vs 半虚拟化 维度 全虚拟化 半虚拟化 是否需要修改 OS ❌ 不需要 ✅ 需要 用户感知 不感知（以为在真机） 能感知（知道在虚拟环境） 兼容性 强，支持任意 OS 弱，需定制 OS 性能 略低（Hypervisor 开销） 较好 未来趋势 🏆 主流 辅助角色 五、云计算中的主流虚拟化技术 技术 类型 特点 与 Docker 的关系 KVM 全虚拟化 Linux 内核原生、OpenStack 默认 Docker 早期基于 LXC（类似理念） Xen 全/半虚拟化 开源、Amazon AWS 早期使用 — Hyper-V 全虚拟化 微软出品、Windows 集成 Docker Desktop 依赖 Hyper-V（Windows） VMware ESXi 全虚拟化 企业级、业界标杆 vSphere 集成 Docker 容器（Docker） 🌟 操作系统级虚拟化 轻量、秒级启动 本课程核心！ 🔥 重要提示：Docker 是操作系统级虚拟化（容器），不是传统虚拟机。\n本质区别：虚拟机虚拟硬件 → 每个 VM 有自己的 OS；容器共享宿主机 OS → 只隔离应用进程。\n六、KVM 虚拟化架构（深入理解） Linux 平台上最重要的虚拟化方案，也是理解云平台底层的关键。\nKVM 两大组件 组件 运行位置 职责 KVM 内核模块 内核空间 CPU/内存虚拟化管理 QEMU 用户空间 I/O 设备模拟、虚拟机配置 KVM 虚拟磁盘格式 格式 特点 什么时候用 raw 直读直写、最简单、支持增减容量 大数据存储 qcow2 按需分配空间、支持快照/压缩/加密 默认选择 ✅ qed qcow2 改进版 尚未成熟 💡 本课程实操用 VMware Workstation（宿主型、适合学习），\n企业环境用 KVM/ESXi（原生型、高性能）。\n第四部分：项目实施 — VMware 安装（25 min） 🛠 1.3.1 VMware Workstation 安装 软件准备：VMware Workstation Pro / Player\n系统要求：Windows 10/11 64位，至少 8GB 内存，支持虚拟化技术\n安装前检查 1 2 3 4 # 检查 CPU 是否支持虚拟化 systeminfo | findstr \"虚拟化\" # 或通过任务管理器 → 性能 → CPU → 查看「虚拟化：已启用」 ⚠️ 常见问题：如果显示\"已禁用\"，需要进入 BIOS 开启 Intel VT-x 或 AMD-V。\n安装步骤（教师演示） 下载 VMware Workstation → 双击安装程序 接受许可协议 → 选择安装路径 勾选「增强型键盘驱动程序」 等待安装完成 → 输入许可证密钥 重启计算机 🖥 1.3.2 创建虚拟机 典型配置方案（以 CentOS 7 为例） 配置项 推荐值 说明 操作系统 CentOS 7 / Ubuntu 20.04 选 Linux CPU 2 核 不低于 1 核 内存 4 GB 不低于 2 GB 硬盘 40 GB（qcow2 按需分配） 存储为单个文件 网络 NAT 模式 可访问外网 虚拟化引擎 勾选 Intel VT-x/AMD-V 嵌套虚拟化支持 关键步骤图解 1. 新建虚拟机 → 典型（推荐） 2. 稍后安装操作系统 3. 选择 Linux → CentOS 7 64位 4. 命名虚拟机 → 选择存储位置 5. 指定磁盘容量 → 「将虚拟磁盘存储为单个文件」 6. 自定义硬件 → 挂载 ISO 镜像 7. 完成 → 开启虚拟机 → 按提示安装系统 🎯 课堂练习：每人安装 VMware Workstation 并创建一台 CentOS 虚拟机。\n📝 课程总结 🗺 本课知识地图 云计算基础 ├── 云计算概述 │ ├── 起源：2006年 Google 提出概念 │ ├── 定义：通过网络按需获取计算资源 │ ├── 三大服务模式：IaaS / PaaS / SaaS ⭐ │ ├── 四大部署模式：公有/私有/混合/社区 │ └── 五大特征：自助/广域网/池化/弹性/计费 │ ├── 虚拟化技术 │ ├── 概念：物理资源 → 逻辑资源 │ ├── 架构：Host → Hypervisor → Guest │ ├── 分类：平台虚拟化 / 资源虚拟化 / 应用虚拟化 │ ├── 全虚拟化 vs 半虚拟化 │ └── KVM 架构：KVM模块 + QEMU │ └── 项目实施 ├── VMware Workstation 安装 └── 虚拟机创建（CentOS） ✅ 课后自测 云计算三大服务模式分别是什么？请各举一个产品例子。 IaaS 和 PaaS 的区别是什么？什么场景选 IaaS，什么场景选 PaaS？ 虚拟化前一台物理机的利用率通常只有多少？虚拟化后能达到多少？ 原生型 Hypervisor 和宿主型 Hypervisor 有什么区别？VMware Workstation 属于哪种？ 全虚拟化和半虚拟化的核心区别是什么？ Docker 属于传统虚拟化吗？它的虚拟化方式叫什么？ 📚 课后任务 任务 内容 截止时间 🔧 实操 在自己的电脑上安装 VMware Workstation，创建一台虚拟机 下次课前 📖 预习 阅读教材「项目2 Docker 概述」 下次课前 💬 思考 想一想：你生活中哪些产品用到了云计算？它们分别属于 IaaS/PaaS/SaaS 哪一层？ 课堂讨论 📎 参考资料 《Docker 容器技术与应用项目教程》教材 AWS 官方文档：https://aws.amazon.com/what-is-cloud-computing/ VMware 官方文档：https://docs.vmware.com/ KVM 官网：https://linux-kvm.org/ 🎓 下节课预告：有了虚拟化的基础，我们正式进入 Docker 的世界——为什么 Docker 被称为「轻量级虚拟化」？它比传统虚拟机快多少？\n","wordCount":"5408","inLanguage":"en","datePublished":"2026-06-02T00:00:00Z","dateModified":"2026-06-02T00:00:00Z","author":{"@type":"Person","name":"AI"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://wangfei19986555-wq.github.io/FeiWang1998.github.io/posts/%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%AF%BE%E4%BA%91%E8%AE%A1%E7%AE%97%E5%9F%BA%E7%A1%80-%E8%AF%BE%E5%A0%82%E6%95%99%E5%AD%A6-%E5%8E%9F%E7%89%88/"},"publisher":{"@type":"Organization","name":"Faye的笔记本","logo":{"@type":"ImageObject","url":"https://wangfei19986555-wq.github.io/FeiWang1998.github.io/favicon.ico"}}}</script></head><body id=top><header class=header><nav class=header-nav><div class=logo><a href=https://wangfei19986555-wq.github.io/FeiWang1998.github.io/ accesskey=h title="Faye的笔记本 (Alt + H)">Faye的笔记本</a><div class=logo-switches><button id=theme-toggle class=theme-toggle accesskey=t title="(Alt + T)" aria-label="Toggle theme">
-<svg class="moon" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
-<svg class="sun" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button></div></div><ul id=menu class=menu><li><a href=https://wangfei19986555-wq.github.io/FeiWang1998.github.io/posts/ title=文章><span>文章</span></a></li><li><a href=https://wangfei19986555-wq.github.io/FeiWang1998.github.io/categories/ title=分类><span>分类</span></a></li><li><a href=https://wangfei19986555-wq.github.io/FeiWang1998.github.io/tags/ title=标签><span>标签</span></a></li><li><a href=https://wangfei19986555-wq.github.io/FeiWang1998.github.io/about/ title=关于><span>关于</span></a></li></ul></nav></header><main class=main><article class=post-single><header class=post-header><h1 class="post-title entry-hint-parent">云计算基础</h1><div class=post-meta><span title='2026-06-02 00:00:00 +0000 UTC'>June 2, 2026</span>&nbsp;·&nbsp;<span>AI</span></div></header><details class=toc><summary accesskey=c title="(Alt + C)"><span class=title>Table of Contents</span></summary><div class=inner><ul><li><a href=#-%e7%ac%ac%e4%b8%80%e6%ac%a1%e8%af%be%e4%ba%91%e8%ae%a1%e7%ae%97%e5%9f%ba%e7%a1%80 aria-label="📘 第一次课：云计算基础">📘 第一次课：云计算基础</a><ul><li><a href=#-%e5%ad%a6%e4%b9%a0%e7%9b%ae%e6%a0%87 aria-label="🎯 学习目标">🎯 学习目标</a></li><li><a href=#-%e8%af%be%e7%a8%8b%e7%bb%93%e6%9e%8490%e5%88%86%e9%92%9f aria-label="📋 课程结构（90分钟）">📋 课程结构（90分钟）</a></li></ul></li><li><a href=#%e7%ac%ac%e4%b8%80%e9%83%a8%e5%88%86%e9%a1%b9%e7%9b%ae%e9%99%88%e8%bf%b010-min aria-label="第一部分：项目陈述（10 min）">第一部分：项目陈述（10 min）</a><ul><li><a href=#-%e8%af%be%e5%a0%82%e5%af%bc%e5%85%a5%e4%b8%80%e4%b8%aa%e4%bd%a0%e6%af%8f%e5%a4%a9%e9%83%bd%e5%9c%a8%e7%bb%8f%e5%8e%86%e7%9a%84%e5%9c%ba%e6%99%af aria-label="🎬 课堂导入：一个你每天都在经历的场景">🎬 课堂导入：一个你每天都在经历的场景</a></li><li><a href=#-%e9%82%a3%e4%b9%88%e5%88%b0%e5%ba%95%e4%bb%80%e4%b9%88%e6%98%af%e4%ba%91%e8%ae%a1%e7%ae%97 aria-label="❓ 那么，到底什么是云计算？">❓ 那么，到底什么是云计算？</a><ul><li><a href=#-%e7%94%9f%e6%b4%bb%e7%b1%bb%e6%af%94%e4%bb%8e%e6%89%93%e4%ba%95%e5%88%b0%e8%87%aa%e6%9d%a5%e6%b0%b4 aria-label="🏠 生活类比：从「打井」到「自来水」">🏠 生活类比：从「打井」到「自来水」</a></li></ul></li><li><a href=#-%e4%ba%91%e8%ae%a1%e7%ae%97%e7%9a%84%e5%ae%9a%e4%b9%89%e6%ad%a3%e5%bc%8f%e7%89%88 aria-label="📖 云计算的定义（正式版）">📖 云计算的定义（正式版）</a><ul><li><a href=#-%e4%b8%ba%e4%bb%80%e4%b9%88%e5%8f%ab%e4%ba%91 aria-label="☁️ 为什么叫「云」？">☁️ 为什么叫「云」？</a></li></ul></li><li><a href=#-%e7%8b%ad%e4%b9%89-vs-%e5%b9%bf%e4%b9%89 aria-label="🔬 狭义 vs 广义">🔬 狭义 vs 广义</a></li></ul></li><li><a href=#%e7%ac%ac%e4%ba%8c%e9%83%a8%e5%88%86%e5%bf%85%e5%a4%87%e7%9f%a5%e8%af%86--%e4%ba%91%e8%ae%a1%e7%ae%97%e6%a6%82%e8%bf%b030-min aria-label="第二部分：必备知识 — 云计算概述（30 min）">第二部分：必备知识 — 云计算概述（30 min）</a><ul><li><a href=#%e4%b8%80%e4%ba%91%e8%ae%a1%e7%ae%97%e7%9a%84%e8%b5%b7%e6%ba%90%e4%b8%8e%e5%8f%91%e5%b1%95 aria-label=一、云计算的起源与发展>一、云计算的起源与发展</a><ul><li><a href=#-%e5%85%b3%e9%94%ae%e6%97%b6%e9%97%b4%e7%ba%bf aria-label="📅 关键时间线">📅 关键时间线</a></li><li><a href=#-%e8%ae%a1%e7%ae%97%e6%a8%a1%e5%bc%8f%e7%9a%84%e6%bc%94%e5%8f%98 aria-label="🔄 计算模式的演变">🔄 计算模式的演变</a></li></ul></li><li><a href=#%e4%ba%8c%e4%ba%91%e8%ae%a1%e7%ae%97%e7%9a%84%e5%9f%ba%e6%9c%ac%e6%a6%82%e5%bf%b5 aria-label=二、云计算的基本概念>二、云计算的基本概念</a><ul><li><a href=#21-%e4%b8%89%e5%a4%a7%e6%9c%8d%e5%8a%a1%e6%a8%a1%e5%bc%8f%e9%87%8d%e7%82%b9 aria-label="2.1 三大服务模式（重点！⭐）">2.1 三大服务模式（重点！⭐）</a><ul><li><a href=#-%e4%b8%89%e7%a7%8d%e6%a8%a1%e5%bc%8f%e5%af%b9%e6%af%94 aria-label="📊 三种模式对比">📊 三种模式对比</a></li><li><a href=#-%e4%b8%89%e5%b1%82%e5%85%b3%e7%b3%bb aria-label="🔗 三层关系">🔗 三层关系</a></li></ul></li><li><a href=#22-%e5%9b%9b%e5%a4%a7%e9%83%a8%e7%bd%b2%e6%a8%a1%e5%bc%8f aria-label="2.2 四大部署模式">2.2 四大部署模式</a></li><li><a href=#23-%e4%ba%91%e8%ae%a1%e7%ae%97%e7%9a%84%e7%94%9f%e6%80%81%e7%b3%bb%e7%bb%9f aria-label="2.3 云计算的生态系统">2.3 云计算的生态系统</a></li></ul></li><li><a href=#%e4%b8%89%e4%ba%91%e8%ae%a1%e7%ae%97%e7%9a%84%e7%89%b9%e5%be%81 aria-label=三、云计算的特征>三、云计算的特征</a></li></ul></li><li><a href=#-%e8%af%be%e9%97%b4%e4%bc%91%e6%81%af5-min aria-label="🍵 课间休息（5 min）">🍵 课间休息（5 min）</a></li><li><a href=#%e7%ac%ac%e4%b8%89%e9%83%a8%e5%88%86%e5%bf%85%e5%a4%87%e7%9f%a5%e8%af%86--%e8%99%9a%e6%8b%9f%e5%8c%96%e6%8a%80%e6%9c%af25-min aria-label="第三部分：必备知识 — 虚拟化技术（25 min）">第三部分：必备知识 — 虚拟化技术（25 min）</a><ul><li><a href=#-%e4%b8%ba%e4%bb%80%e4%b9%88%e4%ba%91%e8%ae%a1%e7%ae%97%e9%9c%80%e8%a6%81%e8%99%9a%e6%8b%9f%e5%8c%96 aria-label="❓ 为什么云计算需要虚拟化？">❓ 为什么云计算需要虚拟化？</a></li><li><a href=#%e4%b8%80%e4%bb%80%e4%b9%88%e6%98%af%e8%99%9a%e6%8b%9f%e5%8c%96 aria-label=一、什么是虚拟化？>一、什么是虚拟化？</a></li><li><a href=#%e4%ba%8c%e8%99%9a%e6%8b%9f%e5%8c%96%e4%bd%93%e7%b3%bb%e7%bb%93%e6%9e%84 aria-label=二、虚拟化体系结构>二、虚拟化体系结构</a><ul><li><a href=#hypervisor-%e7%9a%84%e4%b8%a4%e7%a7%8d%e7%b1%bb%e5%9e%8b aria-label="Hypervisor 的两种类型">Hypervisor 的两种类型</a></li></ul></li><li><a href=#%e4%b8%89%e8%99%9a%e6%8b%9f%e5%8c%96%e7%9a%84%e5%88%86%e7%b1%bb aria-label=三、虚拟化的分类>三、虚拟化的分类</a></li><li><a href=#%e5%9b%9b%e5%85%a8%e8%99%9a%e6%8b%9f%e5%8c%96-vs-%e5%8d%8a%e8%99%9a%e6%8b%9f%e5%8c%96 aria-label="四、全虚拟化 vs 半虚拟化">四、全虚拟化 vs 半虚拟化</a></li><li><a href=#%e4%ba%94%e4%ba%91%e8%ae%a1%e7%ae%97%e4%b8%ad%e7%9a%84%e4%b8%bb%e6%b5%81%e8%99%9a%e6%8b%9f%e5%8c%96%e6%8a%80%e6%9c%af aria-label=五、云计算中的主流虚拟化技术>五、云计算中的主流虚拟化技术</a></li><li><a href=#%e5%85%adkvm-%e8%99%9a%e6%8b%9f%e5%8c%96%e6%9e%b6%e6%9e%84%e6%b7%b1%e5%85%a5%e7%90%86%e8%a7%a3 aria-label="六、KVM 虚拟化架构（深入理解）">六、KVM 虚拟化架构（深入理解）</a><ul><li><a href=#kvm-%e4%b8%a4%e5%a4%a7%e7%bb%84%e4%bb%b6 aria-label="KVM 两大组件">KVM 两大组件</a></li><li><a href=#kvm-%e8%99%9a%e6%8b%9f%e7%a3%81%e7%9b%98%e6%a0%bc%e5%bc%8f aria-label="KVM 虚拟磁盘格式">KVM 虚拟磁盘格式</a></li></ul></li></ul></li><li><a href=#%e7%ac%ac%e5%9b%9b%e9%83%a8%e5%88%86%e9%a1%b9%e7%9b%ae%e5%ae%9e%e6%96%bd--vmware-%e5%ae%89%e8%a3%8525-min aria-label="第四部分：项目实施 — VMware 安装（25 min）">第四部分：项目实施 — VMware 安装（25 min）</a><ul><li><a href=#-131-vmware-workstation-%e5%ae%89%e8%a3%85 aria-label="🛠 1.3.1 VMware Workstation 安装">🛠 1.3.1 VMware Workstation 安装</a><ul><li><a href=#%e5%ae%89%e8%a3%85%e5%89%8d%e6%a3%80%e6%9f%a5 aria-label=安装前检查>安装前检查</a></li><li><a href=#%e5%ae%89%e8%a3%85%e6%ad%a5%e9%aa%a4%e6%95%99%e5%b8%88%e6%bc%94%e7%a4%ba aria-label=安装步骤（教师演示）>安装步骤（教师演示）</a></li></ul></li><li><a href=#-132-%e5%88%9b%e5%bb%ba%e8%99%9a%e6%8b%9f%e6%9c%ba aria-label="🖥 1.3.2 创建虚拟机">🖥 1.3.2 创建虚拟机</a><ul><li><a href=#%e5%85%b8%e5%9e%8b%e9%85%8d%e7%bd%ae%e6%96%b9%e6%a1%88%e4%bb%a5-centos-7-%e4%b8%ba%e4%be%8b aria-label="典型配置方案（以 CentOS 7 为例）">典型配置方案（以 CentOS 7 为例）</a></li><li><a href=#%e5%85%b3%e9%94%ae%e6%ad%a5%e9%aa%a4%e5%9b%be%e8%a7%a3 aria-label=关键步骤图解>关键步骤图解</a></li></ul></li></ul></li><li><a href=#-%e8%af%be%e7%a8%8b%e6%80%bb%e7%bb%93 aria-label="📝 课程总结">📝 课程总结</a><ul><li><a href=#-%e6%9c%ac%e8%af%be%e7%9f%a5%e8%af%86%e5%9c%b0%e5%9b%be aria-label="🗺 本课知识地图">🗺 本课知识地图</a></li><li><a href=#-%e8%af%be%e5%90%8e%e8%87%aa%e6%b5%8b aria-label="✅ 课后自测">✅ 课后自测</a></li><li><a href=#-%e8%af%be%e5%90%8e%e4%bb%bb%e5%8a%a1 aria-label="📚 课后任务">📚 课后任务</a></li><li><a href=#-%e5%8f%82%e8%80%83%e8%b5%84%e6%96%99 aria-label="📎 参考资料">📎 参考资料</a></li></ul></li></ul></div></details><div class="post-content md-content"><h1 id=-第一次课云计算基础>📘 第一次课：云计算基础<a hidden class=anchor aria-hidden=true href=#-第一次课云计算基础>#</a></h1><blockquote><p><strong>课程名称</strong>：《Docker 容器技术与应用项目教程》<br><strong>章节</strong>：项目1 — 云计算基础<br><strong>课时</strong>：2 学时（90 分钟）<br><strong>主讲</strong>：王菲</p></blockquote><hr><h2 id=-学习目标>🎯 学习目标<a hidden class=anchor aria-hidden=true href=#-学习目标>#</a></h2><table><thead><tr><th>目标层次</th><th>具体内容</th></tr></thead><tbody><tr><td>🔵 <strong>了解</strong></td><td>云计算的起源、基本概念</td></tr><tr><td>🟡 <strong>理解</strong></td><td>虚拟化技术的基本概念、体系结构</td></tr><tr><td>🟢 <strong>掌握</strong></td><td>VMware Workstation 安装及虚拟机创建</td></tr></tbody></table><hr><h2 id=-课程结构90分钟>📋 课程结构（90分钟）<a hidden class=anchor aria-hidden=true href=#-课程结构90分钟>#</a></h2><table><thead><tr><th>时间</th><th>环节</th><th>内容</th></tr></thead><tbody><tr><td>0-5 min</td><td>🎬 导入</td><td>抛出问题 → 引出云计算</td></tr><tr><td>5-25 min</td><td>📖 1.1</td><td>项目陈述：什么是云计算</td></tr><tr><td>25-55 min</td><td>📖 1.2</td><td>必备知识：云计算概述 + 虚拟化技术</td></tr><tr><td>55-80 min</td><td>🛠 1.3</td><td>项目实施：VMware Workstation 安装</td></tr><tr><td>80-90 min</td><td>📝</td><td>总结回顾 + 课后任务</td></tr></tbody></table><hr><h1 id=第一部分项目陈述10-min>第一部分：项目陈述（10 min）<a hidden class=anchor aria-hidden=true href=#第一部分项目陈述10-min>#</a></h1><hr><h2 id=-课堂导入一个你每天都在经历的场景>🎬 课堂导入：一个你每天都在经历的场景<a hidden class=anchor aria-hidden=true href=#-课堂导入一个你每天都在经历的场景>#</a></h2><blockquote><p><strong>想一想</strong>：你今天用手机了吗？</p></blockquote><ul><li>早上刷<strong>抖音</strong>看视频 → 视频存谁那？→ 存云端</li><li>用微信发<strong>照片</strong>给朋友 → 照片经过哪里？→ 云端服务器</li><li>打开<strong>淘宝</strong>逛了一圈 → 淘宝页面跑在哪？→ 阿里云</li><li>你用<strong>百度网盘</strong>存文件 → 文件实际存在哪里？→ 云端存储</li></ul><p>🔑 <strong>核心认知</strong>：你不是在使用自己的手机/电脑的算力，而是在使用「云」上的计算资源。</p><hr><h2 id=-那么到底什么是云计算>❓ 那么，到底什么是云计算？<a hidden class=anchor aria-hidden=true href=#-那么到底什么是云计算>#</a></h2><blockquote><p><strong>一句话总结</strong>：通过网络随时随地获取你需要的计算资源，就像拧开水龙头就有水一样。</p></blockquote><h3 id=-生活类比从打井到自来水>🏠 生活类比：从「打井」到「自来水」<a hidden class=anchor aria-hidden=true href=#-生活类比从打井到自来水>#</a></h3><table><thead><tr><th>时代</th><th>方式</th><th>类比</th></tr></thead><tbody><tr><td><strong>传统 IT</strong></td><td>自己买服务器、建机房 → 像每家自己挖井取水</td><td>💰 投入大、维护累</td></tr><tr><td><strong>云计算</strong></td><td>按需从云端获取算力 → 像拧开水龙头用水</td><td>💡 按量付费、省心省力</td></tr></tbody></table><pre tabindex=0><code>传统模式：买服务器 → 装系统 → 部署应用 → 维护 → 扩容难 → 闲置浪费
+想一想：你今天用手机了吗？">
+<meta name="author" content="AI">
+<link rel="canonical" href="http://localhost:1313/FeiWang1998.github.io/posts/%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%AF%BE%E4%BA%91%E8%AE%A1%E7%AE%97%E5%9F%BA%E7%A1%80-%E8%AF%BE%E5%A0%82%E6%95%99%E5%AD%A6-%E5%8E%9F%E7%89%88/">
+<link crossorigin="anonymous" href="http://localhost:1313/FeiWang1998.github.io/assets/css/stylesheet.89ca4972ab5e6aaa05e9a0dae0c4bb64b26585bc79e36f5cf33614eea0283abe.css" integrity="sha256-icpJcqteaqoF6aDa4MS7ZLJlhbx5429c8zYU7qAoOr4=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/FeiWang1998.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/FeiWang1998.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/FeiWang1998.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/FeiWang1998.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/FeiWang1998.github.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/FeiWang1998.github.io/posts/%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%AF%BE%E4%BA%91%E8%AE%A1%E7%AE%97%E5%9F%BA%E7%A1%80-%E8%AF%BE%E5%A0%82%E6%95%99%E5%AD%A6-%E5%8E%9F%E7%89%88/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="header-nav">
+        <div class="logo">
+            <a href="http://localhost:1313/FeiWang1998.github.io/" accesskey="h" title="Faye的笔记本 (Alt + H)">Faye的笔记本</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu" class="menu">
+            <li>
+                <a href="http://localhost:1313/posts/" title="文章">
+                    <span>文章</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/categories/" title="分类">
+                    <span>分类</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/tags/" title="标签">
+                    <span>标签</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/about/" title="关于">
+                    <span>关于</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      云计算基础
+    </h1>
+    <div class="post-meta">
+
+<span title='2026-06-02 00:00:00 +0000 UTC'>June 2, 2026</span>&nbsp;·&nbsp;<span>AI</span>
+
+</div>
+  </header> <details class="toc" >
+    <summary accesskey="c" title="(Alt + C)">
+        <span class="title">Table of Contents</span>
+    </summary>
+
+    <div class="inner"><ul>
+            <li>
+                <a href="#-%e7%ac%ac%e4%b8%80%e6%ac%a1%e8%af%be%e4%ba%91%e8%ae%a1%e7%ae%97%e5%9f%ba%e7%a1%80" aria-label="📘 第一次课：云计算基础">📘 第一次课：云计算基础</a><ul>
+                    
+            <li>
+                <a href="#-%e5%ad%a6%e4%b9%a0%e7%9b%ae%e6%a0%87" aria-label="🎯 学习目标">🎯 学习目标</a></li>
+            <li>
+                <a href="#-%e8%af%be%e7%a8%8b%e7%bb%93%e6%9e%8490%e5%88%86%e9%92%9f" aria-label="📋 课程结构（90分钟）">📋 课程结构（90分钟）</a></li></ul>
+            </li>
+            <li>
+                <a href="#%e7%ac%ac%e4%b8%80%e9%83%a8%e5%88%86%e9%a1%b9%e7%9b%ae%e9%99%88%e8%bf%b010-min" aria-label="第一部分：项目陈述（10 min）">第一部分：项目陈述（10 min）</a><ul>
+                    
+            <li>
+                <a href="#-%e8%af%be%e5%a0%82%e5%af%bc%e5%85%a5%e4%b8%80%e4%b8%aa%e4%bd%a0%e6%af%8f%e5%a4%a9%e9%83%bd%e5%9c%a8%e7%bb%8f%e5%8e%86%e7%9a%84%e5%9c%ba%e6%99%af" aria-label="🎬 课堂导入：一个你每天都在经历的场景">🎬 课堂导入：一个你每天都在经历的场景</a></li>
+            <li>
+                <a href="#-%e9%82%a3%e4%b9%88%e5%88%b0%e5%ba%95%e4%bb%80%e4%b9%88%e6%98%af%e4%ba%91%e8%ae%a1%e7%ae%97" aria-label="❓ 那么，到底什么是云计算？">❓ 那么，到底什么是云计算？</a><ul>
+                    
+            <li>
+                <a href="#-%e7%94%9f%e6%b4%bb%e7%b1%bb%e6%af%94%e4%bb%8e%e6%89%93%e4%ba%95%e5%88%b0%e8%87%aa%e6%9d%a5%e6%b0%b4" aria-label="🏠 生活类比：从「打井」到「自来水」">🏠 生活类比：从「打井」到「自来水」</a></li></ul>
+            </li>
+            <li>
+                <a href="#-%e4%ba%91%e8%ae%a1%e7%ae%97%e7%9a%84%e5%ae%9a%e4%b9%89%e6%ad%a3%e5%bc%8f%e7%89%88" aria-label="📖 云计算的定义（正式版）">📖 云计算的定义（正式版）</a><ul>
+                    
+            <li>
+                <a href="#-%e4%b8%ba%e4%bb%80%e4%b9%88%e5%8f%ab%e4%ba%91" aria-label="☁️ 为什么叫「云」？">☁️ 为什么叫「云」？</a></li></ul>
+            </li>
+            <li>
+                <a href="#-%e7%8b%ad%e4%b9%89-vs-%e5%b9%bf%e4%b9%89" aria-label="🔬 狭义 vs 广义">🔬 狭义 vs 广义</a></li></ul>
+            </li>
+            <li>
+                <a href="#%e7%ac%ac%e4%ba%8c%e9%83%a8%e5%88%86%e5%bf%85%e5%a4%87%e7%9f%a5%e8%af%86--%e4%ba%91%e8%ae%a1%e7%ae%97%e6%a6%82%e8%bf%b030-min" aria-label="第二部分：必备知识 — 云计算概述（30 min）">第二部分：必备知识 — 云计算概述（30 min）</a><ul>
+                    
+            <li>
+                <a href="#%e4%b8%80%e4%ba%91%e8%ae%a1%e7%ae%97%e7%9a%84%e8%b5%b7%e6%ba%90%e4%b8%8e%e5%8f%91%e5%b1%95" aria-label="一、云计算的起源与发展">一、云计算的起源与发展</a><ul>
+                    
+            <li>
+                <a href="#-%e5%85%b3%e9%94%ae%e6%97%b6%e9%97%b4%e7%ba%bf" aria-label="📅 关键时间线">📅 关键时间线</a></li>
+            <li>
+                <a href="#-%e8%ae%a1%e7%ae%97%e6%a8%a1%e5%bc%8f%e7%9a%84%e6%bc%94%e5%8f%98" aria-label="🔄 计算模式的演变">🔄 计算模式的演变</a></li></ul>
+            </li>
+            <li>
+                <a href="#%e4%ba%8c%e4%ba%91%e8%ae%a1%e7%ae%97%e7%9a%84%e5%9f%ba%e6%9c%ac%e6%a6%82%e5%bf%b5" aria-label="二、云计算的基本概念">二、云计算的基本概念</a><ul>
+                    
+            <li>
+                <a href="#21-%e4%b8%89%e5%a4%a7%e6%9c%8d%e5%8a%a1%e6%a8%a1%e5%bc%8f%e9%87%8d%e7%82%b9" aria-label="2.1 三大服务模式（重点！⭐）">2.1 三大服务模式（重点！⭐）</a><ul>
+                    
+            <li>
+                <a href="#-%e4%b8%89%e7%a7%8d%e6%a8%a1%e5%bc%8f%e5%af%b9%e6%af%94" aria-label="📊 三种模式对比">📊 三种模式对比</a></li>
+            <li>
+                <a href="#-%e4%b8%89%e5%b1%82%e5%85%b3%e7%b3%bb" aria-label="🔗 三层关系">🔗 三层关系</a></li></ul>
+            </li>
+            <li>
+                <a href="#22-%e5%9b%9b%e5%a4%a7%e9%83%a8%e7%bd%b2%e6%a8%a1%e5%bc%8f" aria-label="2.2 四大部署模式">2.2 四大部署模式</a></li>
+            <li>
+                <a href="#23-%e4%ba%91%e8%ae%a1%e7%ae%97%e7%9a%84%e7%94%9f%e6%80%81%e7%b3%bb%e7%bb%9f" aria-label="2.3 云计算的生态系统">2.3 云计算的生态系统</a></li></ul>
+            </li>
+            <li>
+                <a href="#%e4%b8%89%e4%ba%91%e8%ae%a1%e7%ae%97%e7%9a%84%e7%89%b9%e5%be%81" aria-label="三、云计算的特征">三、云计算的特征</a></li></ul>
+            </li>
+            <li>
+                <a href="#-%e8%af%be%e9%97%b4%e4%bc%91%e6%81%af5-min" aria-label="🍵 课间休息（5 min）">🍵 课间休息（5 min）</a></li>
+            <li>
+                <a href="#%e7%ac%ac%e4%b8%89%e9%83%a8%e5%88%86%e5%bf%85%e5%a4%87%e7%9f%a5%e8%af%86--%e8%99%9a%e6%8b%9f%e5%8c%96%e6%8a%80%e6%9c%af25-min" aria-label="第三部分：必备知识 — 虚拟化技术（25 min）">第三部分：必备知识 — 虚拟化技术（25 min）</a><ul>
+                    
+            <li>
+                <a href="#-%e4%b8%ba%e4%bb%80%e4%b9%88%e4%ba%91%e8%ae%a1%e7%ae%97%e9%9c%80%e8%a6%81%e8%99%9a%e6%8b%9f%e5%8c%96" aria-label="❓ 为什么云计算需要虚拟化？">❓ 为什么云计算需要虚拟化？</a></li>
+            <li>
+                <a href="#%e4%b8%80%e4%bb%80%e4%b9%88%e6%98%af%e8%99%9a%e6%8b%9f%e5%8c%96" aria-label="一、什么是虚拟化？">一、什么是虚拟化？</a></li>
+            <li>
+                <a href="#%e4%ba%8c%e8%99%9a%e6%8b%9f%e5%8c%96%e4%bd%93%e7%b3%bb%e7%bb%93%e6%9e%84" aria-label="二、虚拟化体系结构">二、虚拟化体系结构</a><ul>
+                    
+            <li>
+                <a href="#hypervisor-%e7%9a%84%e4%b8%a4%e7%a7%8d%e7%b1%bb%e5%9e%8b" aria-label="Hypervisor 的两种类型">Hypervisor 的两种类型</a></li></ul>
+            </li>
+            <li>
+                <a href="#%e4%b8%89%e8%99%9a%e6%8b%9f%e5%8c%96%e7%9a%84%e5%88%86%e7%b1%bb" aria-label="三、虚拟化的分类">三、虚拟化的分类</a></li>
+            <li>
+                <a href="#%e5%9b%9b%e5%85%a8%e8%99%9a%e6%8b%9f%e5%8c%96-vs-%e5%8d%8a%e8%99%9a%e6%8b%9f%e5%8c%96" aria-label="四、全虚拟化 vs 半虚拟化">四、全虚拟化 vs 半虚拟化</a></li>
+            <li>
+                <a href="#%e4%ba%94%e4%ba%91%e8%ae%a1%e7%ae%97%e4%b8%ad%e7%9a%84%e4%b8%bb%e6%b5%81%e8%99%9a%e6%8b%9f%e5%8c%96%e6%8a%80%e6%9c%af" aria-label="五、云计算中的主流虚拟化技术">五、云计算中的主流虚拟化技术</a></li>
+            <li>
+                <a href="#%e5%85%adkvm-%e8%99%9a%e6%8b%9f%e5%8c%96%e6%9e%b6%e6%9e%84%e6%b7%b1%e5%85%a5%e7%90%86%e8%a7%a3" aria-label="六、KVM 虚拟化架构（深入理解）">六、KVM 虚拟化架构（深入理解）</a><ul>
+                    
+            <li>
+                <a href="#kvm-%e4%b8%a4%e5%a4%a7%e7%bb%84%e4%bb%b6" aria-label="KVM 两大组件">KVM 两大组件</a></li>
+            <li>
+                <a href="#kvm-%e8%99%9a%e6%8b%9f%e7%a3%81%e7%9b%98%e6%a0%bc%e5%bc%8f" aria-label="KVM 虚拟磁盘格式">KVM 虚拟磁盘格式</a></li></ul>
+            </li></ul>
+            </li>
+            <li>
+                <a href="#%e7%ac%ac%e5%9b%9b%e9%83%a8%e5%88%86%e9%a1%b9%e7%9b%ae%e5%ae%9e%e6%96%bd--vmware-%e5%ae%89%e8%a3%8525-min" aria-label="第四部分：项目实施 — VMware 安装（25 min）">第四部分：项目实施 — VMware 安装（25 min）</a><ul>
+                    
+            <li>
+                <a href="#-131-vmware-workstation-%e5%ae%89%e8%a3%85" aria-label="🛠 1.3.1 VMware Workstation 安装">🛠 1.3.1 VMware Workstation 安装</a><ul>
+                    
+            <li>
+                <a href="#%e5%ae%89%e8%a3%85%e5%89%8d%e6%a3%80%e6%9f%a5" aria-label="安装前检查">安装前检查</a></li>
+            <li>
+                <a href="#%e5%ae%89%e8%a3%85%e6%ad%a5%e9%aa%a4%e6%95%99%e5%b8%88%e6%bc%94%e7%a4%ba" aria-label="安装步骤（教师演示）">安装步骤（教师演示）</a></li></ul>
+            </li>
+            <li>
+                <a href="#-132-%e5%88%9b%e5%bb%ba%e8%99%9a%e6%8b%9f%e6%9c%ba" aria-label="🖥 1.3.2 创建虚拟机">🖥 1.3.2 创建虚拟机</a><ul>
+                    
+            <li>
+                <a href="#%e5%85%b8%e5%9e%8b%e9%85%8d%e7%bd%ae%e6%96%b9%e6%a1%88%e4%bb%a5-centos-7-%e4%b8%ba%e4%be%8b" aria-label="典型配置方案（以 CentOS 7 为例）">典型配置方案（以 CentOS 7 为例）</a></li>
+            <li>
+                <a href="#%e5%85%b3%e9%94%ae%e6%ad%a5%e9%aa%a4%e5%9b%be%e8%a7%a3" aria-label="关键步骤图解">关键步骤图解</a></li></ul>
+            </li></ul>
+            </li>
+            <li>
+                <a href="#-%e8%af%be%e7%a8%8b%e6%80%bb%e7%bb%93" aria-label="📝 课程总结">📝 课程总结</a><ul>
+                    
+            <li>
+                <a href="#-%e6%9c%ac%e8%af%be%e7%9f%a5%e8%af%86%e5%9c%b0%e5%9b%be" aria-label="🗺 本课知识地图">🗺 本课知识地图</a></li>
+            <li>
+                <a href="#-%e8%af%be%e5%90%8e%e8%87%aa%e6%b5%8b" aria-label="✅ 课后自测">✅ 课后自测</a></li>
+            <li>
+                <a href="#-%e8%af%be%e5%90%8e%e4%bb%bb%e5%8a%a1" aria-label="📚 课后任务">📚 课后任务</a></li>
+            <li>
+                <a href="#-%e5%8f%82%e8%80%83%e8%b5%84%e6%96%99" aria-label="📎 参考资料">📎 参考资料</a>
+            </li>
+        </ul>
+        </li>
+        </ul>
+    </div>
+</details>
+
+  <div class="post-content md-content"><h1 id="-第一次课云计算基础">📘 第一次课：云计算基础<a hidden class="anchor" aria-hidden="true" href="#-第一次课云计算基础">#</a></h1>
+<blockquote>
+<p><strong>课程名称</strong>：《Docker 容器技术与应用项目教程》<br>
+<strong>章节</strong>：项目1 — 云计算基础<br>
+<strong>课时</strong>：2 学时（90 分钟）<br>
+<strong>主讲</strong>：王菲</p>
+</blockquote>
+<hr>
+<h2 id="-学习目标">🎯 学习目标<a hidden class="anchor" aria-hidden="true" href="#-学习目标">#</a></h2>
+<table>
+	<thead>
+			<tr>
+					<th>目标层次</th>
+					<th>具体内容</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>🔵 <strong>了解</strong></td>
+					<td>云计算的起源、基本概念</td>
+			</tr>
+			<tr>
+					<td>🟡 <strong>理解</strong></td>
+					<td>虚拟化技术的基本概念、体系结构</td>
+			</tr>
+			<tr>
+					<td>🟢 <strong>掌握</strong></td>
+					<td>VMware Workstation 安装及虚拟机创建</td>
+			</tr>
+	</tbody>
+</table>
+<hr>
+<h2 id="-课程结构90分钟">📋 课程结构（90分钟）<a hidden class="anchor" aria-hidden="true" href="#-课程结构90分钟">#</a></h2>
+<table>
+	<thead>
+			<tr>
+					<th>时间</th>
+					<th>环节</th>
+					<th>内容</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>0-5 min</td>
+					<td>🎬 导入</td>
+					<td>抛出问题 → 引出云计算</td>
+			</tr>
+			<tr>
+					<td>5-25 min</td>
+					<td>📖 1.1</td>
+					<td>项目陈述：什么是云计算</td>
+			</tr>
+			<tr>
+					<td>25-55 min</td>
+					<td>📖 1.2</td>
+					<td>必备知识：云计算概述 + 虚拟化技术</td>
+			</tr>
+			<tr>
+					<td>55-80 min</td>
+					<td>🛠 1.3</td>
+					<td>项目实施：VMware Workstation 安装</td>
+			</tr>
+			<tr>
+					<td>80-90 min</td>
+					<td>📝</td>
+					<td>总结回顾 + 课后任务</td>
+			</tr>
+	</tbody>
+</table>
+<hr>
+<h1 id="第一部分项目陈述10-min">第一部分：项目陈述（10 min）<a hidden class="anchor" aria-hidden="true" href="#第一部分项目陈述10-min">#</a></h1>
+<hr>
+<h2 id="-课堂导入一个你每天都在经历的场景">🎬 课堂导入：一个你每天都在经历的场景<a hidden class="anchor" aria-hidden="true" href="#-课堂导入一个你每天都在经历的场景">#</a></h2>
+<blockquote>
+<p><strong>想一想</strong>：你今天用手机了吗？</p>
+</blockquote>
+<ul>
+<li>早上刷<strong>抖音</strong>看视频 → 视频存谁那？→ 存云端</li>
+<li>用微信发<strong>照片</strong>给朋友 → 照片经过哪里？→ 云端服务器</li>
+<li>打开<strong>淘宝</strong>逛了一圈 → 淘宝页面跑在哪？→ 阿里云</li>
+<li>你用<strong>百度网盘</strong>存文件 → 文件实际存在哪里？→ 云端存储</li>
+</ul>
+<p>🔑 <strong>核心认知</strong>：你不是在使用自己的手机/电脑的算力，而是在使用「云」上的计算资源。</p>
+<hr>
+<h2 id="-那么到底什么是云计算">❓ 那么，到底什么是云计算？<a hidden class="anchor" aria-hidden="true" href="#-那么到底什么是云计算">#</a></h2>
+<blockquote>
+<p><strong>一句话总结</strong>：通过网络随时随地获取你需要的计算资源，就像拧开水龙头就有水一样。</p>
+</blockquote>
+<h3 id="-生活类比从打井到自来水">🏠 生活类比：从「打井」到「自来水」<a hidden class="anchor" aria-hidden="true" href="#-生活类比从打井到自来水">#</a></h3>
+<table>
+	<thead>
+			<tr>
+					<th>时代</th>
+					<th>方式</th>
+					<th>类比</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>传统 IT</strong></td>
+					<td>自己买服务器、建机房 → 像每家自己挖井取水</td>
+					<td>💰 投入大、维护累</td>
+			</tr>
+			<tr>
+					<td><strong>云计算</strong></td>
+					<td>按需从云端获取算力 → 像拧开水龙头用水</td>
+					<td>💡 按量付费、省心省力</td>
+			</tr>
+	</tbody>
+</table>
+<pre tabindex="0"><code>传统模式：买服务器 → 装系统 → 部署应用 → 维护 → 扩容难 → 闲置浪费
 云模式：  开账号   → 选配置 → 部署应用 → 自动维护 → 弹性扩容 → 按量付费
-</code></pre><hr><h2 id=-云计算的定义正式版>📖 云计算的定义（正式版）<a hidden class=anchor aria-hidden=true href=#-云计算的定义正式版>#</a></h2><p><strong>云计算（Cloud Computing）</strong> 是一种基于网络的超级计算模式，将计算任务分布在大量计算机构成的<strong>资源池</strong>上，使各种应用系统能够根据需要获取计算力、存储空间和各种软件服务。</p><h3 id=-为什么叫云>☁️ 为什么叫「云」？<a hidden class=anchor aria-hidden=true href=#-为什么叫云>#</a></h3><table><thead><tr><th>云的特征</th><th>对应含义</th></tr></thead><tbody><tr><td>云很大</td><td>计算集群规模庞大</td></tr><tr><td>云可伸缩</td><td>资源动态扩展/收缩</td></tr><tr><td>云的边界模糊</td><td>用户无需知道具体物理位置</td></tr><tr><td>云飘忽不定</td><td>底层硬件对用户透明</td></tr><tr><td>云确实存在</td><td>数据中心真实存在于某处</td></tr></tbody></table><hr><h2 id=-狭义-vs-广义>🔬 狭义 vs 广义<a hidden class=anchor aria-hidden=true href=#-狭义-vs-广义>#</a></h2><table><thead><tr><th>维度</th><th>狭义云计算</th><th>广义云计算</th></tr></thead><tbody><tr><td><strong>定义</strong></td><td>通过网络提供 IT 基础设施资源</td><td>通过网络提供各种服务</td></tr><tr><td><strong>比喻</strong></td><td>像自来水厂供水</td><td>像整个公共服务网络</td></tr><tr><td><strong>范围</strong></td><td>硬件 + 软件 + 平台</td><td>包含一切可在线获取的服务</td></tr><tr><td><strong>例子</strong></td><td>买阿里云服务器</td><td>用钉钉、腾讯文档、网盘</td></tr></tbody></table><blockquote><p>🎓 <strong>讲给学生的总结</strong>：<br>云计算不是一种新技术，而是一种<strong>新概念、新模式</strong>。<br>它的核心思想是：<strong>以互联网为中心，让计算资源像水电一样流通</strong>。</p></blockquote><hr><h1 id=第二部分必备知识--云计算概述30-min>第二部分：必备知识 — 云计算概述（30 min）<a hidden class=anchor aria-hidden=true href=#第二部分必备知识--云计算概述30-min>#</a></h1><hr><h2 id=一云计算的起源与发展>一、云计算的起源与发展<a hidden class=anchor aria-hidden=true href=#一云计算的起源与发展>#</a></h2><h3 id=-关键时间线>📅 关键时间线<a hidden class=anchor aria-hidden=true href=#-关键时间线>#</a></h3><pre tabindex=0><code>1959 ──── 克里斯托弗·斯特雷奇 提出「虚拟化」基本概念
+</code></pre><hr>
+<h2 id="-云计算的定义正式版">📖 云计算的定义（正式版）<a hidden class="anchor" aria-hidden="true" href="#-云计算的定义正式版">#</a></h2>
+<p><strong>云计算（Cloud Computing）</strong> 是一种基于网络的超级计算模式，将计算任务分布在大量计算机构成的<strong>资源池</strong>上，使各种应用系统能够根据需要获取计算力、存储空间和各种软件服务。</p>
+<h3 id="-为什么叫云">☁️ 为什么叫「云」？<a hidden class="anchor" aria-hidden="true" href="#-为什么叫云">#</a></h3>
+<table>
+	<thead>
+			<tr>
+					<th>云的特征</th>
+					<th>对应含义</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>云很大</td>
+					<td>计算集群规模庞大</td>
+			</tr>
+			<tr>
+					<td>云可伸缩</td>
+					<td>资源动态扩展/收缩</td>
+			</tr>
+			<tr>
+					<td>云的边界模糊</td>
+					<td>用户无需知道具体物理位置</td>
+			</tr>
+			<tr>
+					<td>云飘忽不定</td>
+					<td>底层硬件对用户透明</td>
+			</tr>
+			<tr>
+					<td>云确实存在</td>
+					<td>数据中心真实存在于某处</td>
+			</tr>
+	</tbody>
+</table>
+<hr>
+<h2 id="-狭义-vs-广义">🔬 狭义 vs 广义<a hidden class="anchor" aria-hidden="true" href="#-狭义-vs-广义">#</a></h2>
+<table>
+	<thead>
+			<tr>
+					<th>维度</th>
+					<th>狭义云计算</th>
+					<th>广义云计算</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>定义</strong></td>
+					<td>通过网络提供 IT 基础设施资源</td>
+					<td>通过网络提供各种服务</td>
+			</tr>
+			<tr>
+					<td><strong>比喻</strong></td>
+					<td>像自来水厂供水</td>
+					<td>像整个公共服务网络</td>
+			</tr>
+			<tr>
+					<td><strong>范围</strong></td>
+					<td>硬件 + 软件 + 平台</td>
+					<td>包含一切可在线获取的服务</td>
+			</tr>
+			<tr>
+					<td><strong>例子</strong></td>
+					<td>买阿里云服务器</td>
+					<td>用钉钉、腾讯文档、网盘</td>
+			</tr>
+	</tbody>
+</table>
+<blockquote>
+<p>🎓 <strong>讲给学生的总结</strong>：<br>
+云计算不是一种新技术，而是一种<strong>新概念、新模式</strong>。<br>
+它的核心思想是：<strong>以互联网为中心，让计算资源像水电一样流通</strong>。</p>
+</blockquote>
+<hr>
+<h1 id="第二部分必备知识--云计算概述30-min">第二部分：必备知识 — 云计算概述（30 min）<a hidden class="anchor" aria-hidden="true" href="#第二部分必备知识--云计算概述30-min">#</a></h1>
+<hr>
+<h2 id="一云计算的起源与发展">一、云计算的起源与发展<a hidden class="anchor" aria-hidden="true" href="#一云计算的起源与发展">#</a></h2>
+<h3 id="-关键时间线">📅 关键时间线<a hidden class="anchor" aria-hidden="true" href="#-关键时间线">#</a></h3>
+<pre tabindex="0"><code>1959 ──── 克里斯托弗·斯特雷奇 提出「虚拟化」基本概念
   │
   ▼    （近 50 年技术积累……）
   │
@@ -99,9 +541,16 @@
   ▼    📡 进入广泛应用阶段
   │
 至今    ─ 阿里云、华为云、腾讯云、AWS、Azure...百花齐放
-</code></pre><h3 id=-计算模式的演变>🔄 计算模式的演变<a hidden class=anchor aria-hidden=true href=#-计算模式的演变>#</a></h3><pre tabindex=0><code>集中时代  →  网络时代  →  分布式时代  →  ☁️ 云时代
+</code></pre><h3 id="-计算模式的演变">🔄 计算模式的演变<a hidden class="anchor" aria-hidden="true" href="#-计算模式的演变">#</a></h3>
+<pre tabindex="0"><code>集中时代  →  网络时代  →  分布式时代  →  ☁️ 云时代
 （大型机）   （C/S架构）   （网格计算）     （云计算）
-</code></pre><hr><h2 id=二云计算的基本概念>二、云计算的基本概念<a hidden class=anchor aria-hidden=true href=#二云计算的基本概念>#</a></h2><h3 id=21-三大服务模式重点>2.1 三大服务模式（重点！⭐）<a hidden class=anchor aria-hidden=true href=#21-三大服务模式重点>#</a></h3><blockquote><p>这 3 个概念是整个课程的基石，请务必理解！</p></blockquote><pre tabindex=0><code>┌──────────────────────────────────────────────────────┐
+</code></pre><hr>
+<h2 id="二云计算的基本概念">二、云计算的基本概念<a hidden class="anchor" aria-hidden="true" href="#二云计算的基本概念">#</a></h2>
+<h3 id="21-三大服务模式重点">2.1 三大服务模式（重点！⭐）<a hidden class="anchor" aria-hidden="true" href="#21-三大服务模式重点">#</a></h3>
+<blockquote>
+<p>这 3 个概念是整个课程的基石，请务必理解！</p>
+</blockquote>
+<pre tabindex="0"><code>┌──────────────────────────────────────────────────────┐
 │                    🍕 吃披萨的类比                       │
 ├──────────┬───────────────────┬─────────────────────────┤
 │ 自己在家做 │     点外卖         │      去餐厅吃            │
@@ -113,12 +562,141 @@
 │  IaaS    │      PaaS          │       SaaS               │
 │ 基础设施  │     平台即服务       │     软件即服务             │
 └──────────┴───────────────────┴─────────────────────────┘
-</code></pre><table><thead><tr><th>服务模式</th><th>英文全称</th><th>你做什么</th><th>云厂商做什么</th><th>典型产品</th></tr></thead><tbody><tr><td><strong>IaaS</strong></td><td>Infrastructure as a Service</td><td>自己装系统、部署应用</td><td>提供服务器/网络/存储</td><td>阿里云ECS、AWS EC2</td></tr><tr><td><strong>PaaS</strong></td><td>Platform as a Service</td><td>写代码即可</td><td>提供开发平台+中间件</td><td>Google App Engine</td></tr><tr><td><strong>SaaS</strong></td><td>Software as a Service</td><td>直接用</td><td>提供完整软件</td><td>Gmail、钉钉、Office 365</td></tr></tbody></table><h4 id=-三种模式对比>📊 三种模式对比<a hidden class=anchor aria-hidden=true href=#-三种模式对比>#</a></h4><table><thead><tr><th>维度</th><th>IaaS</th><th>PaaS</th><th>SaaS</th></tr></thead><tbody><tr><td><strong>灵活性</strong></td><td>⭐⭐⭐⭐⭐ 最高</td><td>⭐⭐⭐ 中等</td><td>⭐ 最低</td></tr><tr><td><strong>开发量</strong></td><td>⭐⭐⭐⭐⭐ 最多</td><td>⭐⭐ 较少</td><td>无需开发</td></tr><tr><td><strong>控制力</strong></td><td>完全可控</td><td>只控应用</td><td>不可控</td></tr><tr><td><strong>适用场景</strong></td><td>运维能力强的大企业</td><td>创业团队快速开发</td><td>普通用户/中小企业</td></tr><tr><td><strong>类比</strong></td><td>买车自己开</td><td>打车（司机开）</td><td>坐公交车</td></tr></tbody></table><h4 id=-三层关系>🔗 三层关系<a hidden class=anchor aria-hidden=true href=#-三层关系>#</a></h4><blockquote><p>IaaS 是底层基础 → PaaS 建立在 IaaS 之上 → SaaS 面向最终用户</p></blockquote><pre tabindex=0><code>    SaaS  ← 最终用户使用（如：你用网盘存文件）
+</code></pre><table>
+	<thead>
+			<tr>
+					<th>服务模式</th>
+					<th>英文全称</th>
+					<th>你做什么</th>
+					<th>云厂商做什么</th>
+					<th>典型产品</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>IaaS</strong></td>
+					<td>Infrastructure as a Service</td>
+					<td>自己装系统、部署应用</td>
+					<td>提供服务器/网络/存储</td>
+					<td>阿里云ECS、AWS EC2</td>
+			</tr>
+			<tr>
+					<td><strong>PaaS</strong></td>
+					<td>Platform as a Service</td>
+					<td>写代码即可</td>
+					<td>提供开发平台+中间件</td>
+					<td>Google App Engine</td>
+			</tr>
+			<tr>
+					<td><strong>SaaS</strong></td>
+					<td>Software as a Service</td>
+					<td>直接用</td>
+					<td>提供完整软件</td>
+					<td>Gmail、钉钉、Office 365</td>
+			</tr>
+	</tbody>
+</table>
+<h4 id="-三种模式对比">📊 三种模式对比<a hidden class="anchor" aria-hidden="true" href="#-三种模式对比">#</a></h4>
+<table>
+	<thead>
+			<tr>
+					<th>维度</th>
+					<th>IaaS</th>
+					<th>PaaS</th>
+					<th>SaaS</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>灵活性</strong></td>
+					<td>⭐⭐⭐⭐⭐ 最高</td>
+					<td>⭐⭐⭐ 中等</td>
+					<td>⭐ 最低</td>
+			</tr>
+			<tr>
+					<td><strong>开发量</strong></td>
+					<td>⭐⭐⭐⭐⭐ 最多</td>
+					<td>⭐⭐ 较少</td>
+					<td>无需开发</td>
+			</tr>
+			<tr>
+					<td><strong>控制力</strong></td>
+					<td>完全可控</td>
+					<td>只控应用</td>
+					<td>不可控</td>
+			</tr>
+			<tr>
+					<td><strong>适用场景</strong></td>
+					<td>运维能力强的大企业</td>
+					<td>创业团队快速开发</td>
+					<td>普通用户/中小企业</td>
+			</tr>
+			<tr>
+					<td><strong>类比</strong></td>
+					<td>买车自己开</td>
+					<td>打车（司机开）</td>
+					<td>坐公交车</td>
+			</tr>
+	</tbody>
+</table>
+<h4 id="-三层关系">🔗 三层关系<a hidden class="anchor" aria-hidden="true" href="#-三层关系">#</a></h4>
+<blockquote>
+<p>IaaS 是底层基础 → PaaS 建立在 IaaS 之上 → SaaS 面向最终用户</p>
+</blockquote>
+<pre tabindex="0"><code>    SaaS  ← 最终用户使用（如：你用网盘存文件）
      ↓
     PaaS  ← 开发者使用（如：调用云数据库 API）
      ↓
     IaaS  ← 运维人员管理（如：配置虚拟服务器）
-</code></pre><hr><h3 id=22-四大部署模式>2.2 四大部署模式<a hidden class=anchor aria-hidden=true href=#22-四大部署模式>#</a></h3><table><thead><tr><th>模式</th><th>说明</th><th>优点</th><th>缺点</th><th>典型场景</th></tr></thead><tbody><tr><td><strong>公有云</strong> 🔵</td><td>第三方提供，互联网访问</td><td>成本低、免维护</td><td>数据不在本地</td><td>个人/创业公司</td></tr><tr><td><strong>私有云</strong> 🟢</td><td>专属单一组织使用</td><td>安全可控</td><td>自己出钱运维</td><td>银行/政府</td></tr><tr><td><strong>混合云</strong> 🟠</td><td>公有 + 私有组合</td><td>兼顾安全与弹性</td><td>架构复杂</td><td>大型企业</td></tr><tr><td><strong>社区云</strong> ⚪</td><td>几个组织共享</td><td>分摊成本</td><td>较少见</td><td>行业协会/联盟</td></tr></tbody></table><blockquote><p>💡 <strong>一句话选型指南</strong>：没钱没数据 → 公有云；有钱有数据 → 私有云；两者都要 → 混合云。</p></blockquote><hr><h3 id=23-云计算的生态系统>2.3 云计算的生态系统<a hidden class=anchor aria-hidden=true href=#23-云计算的生态系统>#</a></h3><pre tabindex=0><code>              ┌──────────┐
+</code></pre><hr>
+<h3 id="22-四大部署模式">2.2 四大部署模式<a hidden class="anchor" aria-hidden="true" href="#22-四大部署模式">#</a></h3>
+<table>
+	<thead>
+			<tr>
+					<th>模式</th>
+					<th>说明</th>
+					<th>优点</th>
+					<th>缺点</th>
+					<th>典型场景</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>公有云</strong> 🔵</td>
+					<td>第三方提供，互联网访问</td>
+					<td>成本低、免维护</td>
+					<td>数据不在本地</td>
+					<td>个人/创业公司</td>
+			</tr>
+			<tr>
+					<td><strong>私有云</strong> 🟢</td>
+					<td>专属单一组织使用</td>
+					<td>安全可控</td>
+					<td>自己出钱运维</td>
+					<td>银行/政府</td>
+			</tr>
+			<tr>
+					<td><strong>混合云</strong> 🟠</td>
+					<td>公有 + 私有组合</td>
+					<td>兼顾安全与弹性</td>
+					<td>架构复杂</td>
+					<td>大型企业</td>
+			</tr>
+			<tr>
+					<td><strong>社区云</strong> ⚪</td>
+					<td>几个组织共享</td>
+					<td>分摊成本</td>
+					<td>较少见</td>
+					<td>行业协会/联盟</td>
+			</tr>
+	</tbody>
+</table>
+<blockquote>
+<p>💡 <strong>一句话选型指南</strong>：没钱没数据 → 公有云；有钱有数据 → 私有云；两者都要 → 混合云。</p>
+</blockquote>
+<hr>
+<h3 id="23-云计算的生态系统">2.3 云计算的生态系统<a hidden class="anchor" aria-hidden="true" href="#23-云计算的生态系统">#</a></h3>
+<pre tabindex="0"><code>              ┌──────────┐
               │   安全    │ ← 贯穿所有层
               └──────────┘
     ┌─────────────────────────────┐
@@ -130,7 +708,58 @@
     ├─────────────────────────────┤
     │         网   络              │ ← 电信网、互联网、广电网
     └─────────────────────────────┘
-</code></pre><hr><h2 id=三云计算的特征>三、云计算的特征<a hidden class=anchor aria-hidden=true href=#三云计算的特征>#</a></h2><table><thead><tr><th>特征</th><th>含义</th><th>大白话</th></tr></thead><tbody><tr><td>🔄 <strong>按需自助服务</strong></td><td>不用找人工，自己在线开通</td><td>像网购一样自助下单</td></tr><tr><td>🌐 <strong>广泛的网络访问</strong></td><td>手机/电脑/平板都能连</td><td>有网就能用</td></tr><tr><td>📦 <strong>资源池化</strong></td><td>多用户共享计算资源池</td><td>像水库供水给全城</td></tr><tr><td>⚡ <strong>快速弹性</strong></td><td>需要就扩，不用就缩</td><td>双11扩容，平时缩回来</td></tr><tr><td>📊 <strong>按量计费</strong></td><td>用多少付多少钱</td><td>像交水费，看表计价</td></tr></tbody></table><blockquote><p>🎯 <strong>核心价值</strong>：把 IT 从「固定资产」变成「流动费用」，企业不需要为「万一要用」而买一堆闲置服务器。</p></blockquote><hr><h1 id=-课间休息5-min>🍵 课间休息（5 min）<a hidden class=anchor aria-hidden=true href=#-课间休息5-min>#</a></h1><hr><h1 id=第三部分必备知识--虚拟化技术25-min>第三部分：必备知识 — 虚拟化技术（25 min）<a hidden class=anchor aria-hidden=true href=#第三部分必备知识--虚拟化技术25-min>#</a></h1><hr><h2 id=-为什么云计算需要虚拟化>❓ 为什么云计算需要虚拟化？<a hidden class=anchor aria-hidden=true href=#-为什么云计算需要虚拟化>#</a></h2><blockquote><p><strong>核心问题</strong>：一台物理服务器很强大，但 15% 的利用率太浪费。怎么办？<br><strong>答案</strong>：虚拟化！一台物理机 → 多台虚拟机，利用率可达 60%+。</p></blockquote><pre tabindex=0><code>┌─────────────────────────────────────────────────┐
+</code></pre><hr>
+<h2 id="三云计算的特征">三、云计算的特征<a hidden class="anchor" aria-hidden="true" href="#三云计算的特征">#</a></h2>
+<table>
+	<thead>
+			<tr>
+					<th>特征</th>
+					<th>含义</th>
+					<th>大白话</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>🔄 <strong>按需自助服务</strong></td>
+					<td>不用找人工，自己在线开通</td>
+					<td>像网购一样自助下单</td>
+			</tr>
+			<tr>
+					<td>🌐 <strong>广泛的网络访问</strong></td>
+					<td>手机/电脑/平板都能连</td>
+					<td>有网就能用</td>
+			</tr>
+			<tr>
+					<td>📦 <strong>资源池化</strong></td>
+					<td>多用户共享计算资源池</td>
+					<td>像水库供水给全城</td>
+			</tr>
+			<tr>
+					<td>⚡ <strong>快速弹性</strong></td>
+					<td>需要就扩，不用就缩</td>
+					<td>双11扩容，平时缩回来</td>
+			</tr>
+			<tr>
+					<td>📊 <strong>按量计费</strong></td>
+					<td>用多少付多少钱</td>
+					<td>像交水费，看表计价</td>
+			</tr>
+	</tbody>
+</table>
+<blockquote>
+<p>🎯 <strong>核心价值</strong>：把 IT 从「固定资产」变成「流动费用」，企业不需要为「万一要用」而买一堆闲置服务器。</p>
+</blockquote>
+<hr>
+<h1 id="-课间休息5-min">🍵 课间休息（5 min）<a hidden class="anchor" aria-hidden="true" href="#-课间休息5-min">#</a></h1>
+<hr>
+<h1 id="第三部分必备知识--虚拟化技术25-min">第三部分：必备知识 — 虚拟化技术（25 min）<a hidden class="anchor" aria-hidden="true" href="#第三部分必备知识--虚拟化技术25-min">#</a></h1>
+<hr>
+<h2 id="-为什么云计算需要虚拟化">❓ 为什么云计算需要虚拟化？<a hidden class="anchor" aria-hidden="true" href="#-为什么云计算需要虚拟化">#</a></h2>
+<blockquote>
+<p><strong>核心问题</strong>：一台物理服务器很强大，但 15% 的利用率太浪费。怎么办？<br>
+<strong>答案</strong>：虚拟化！一台物理机 → 多台虚拟机，利用率可达 60%+。</p>
+</blockquote>
+<pre tabindex="0"><code>┌─────────────────────────────────────────────────┐
 │              虚拟化前 vs 虚拟化后                     │
 ├────────────────────┬────────────────────────────┤
 │     虚拟化前        │        虚拟化后               │
@@ -140,7 +769,16 @@
 │ 应用绑定硬件        │  应用可自由迁移                  │
 │ 资源争抢冲突        │  资源隔离、互不影响               │
 └────────────────────┴────────────────────────────┘
-</code></pre><hr><h2 id=一什么是虚拟化>一、什么是虚拟化？<a hidden class=anchor aria-hidden=true href=#一什么是虚拟化>#</a></h2><p><strong>虚拟化</strong>：把物理资源转变为逻辑上可管理的资源，打破物理结构的壁垒。</p><blockquote><p>🏢 <strong>类比</strong>：一栋大楼 → 隔成多个房间 → 每个房间独立出租，互不干扰。<br>物理服务器 = 大楼，虚拟机 = 房间，Hypervisor = 隔墙和门禁系统。</p></blockquote><hr><h2 id=二虚拟化体系结构>二、虚拟化体系结构<a hidden class=anchor aria-hidden=true href=#二虚拟化体系结构>#</a></h2><pre tabindex=0><code>┌─────────────────────────────────────────┐
+</code></pre><hr>
+<h2 id="一什么是虚拟化">一、什么是虚拟化？<a hidden class="anchor" aria-hidden="true" href="#一什么是虚拟化">#</a></h2>
+<p><strong>虚拟化</strong>：把物理资源转变为逻辑上可管理的资源，打破物理结构的壁垒。</p>
+<blockquote>
+<p>🏢 <strong>类比</strong>：一栋大楼 → 隔成多个房间 → 每个房间独立出租，互不干扰。<br>
+物理服务器 = 大楼，虚拟机 = 房间，Hypervisor = 隔墙和门禁系统。</p>
+</blockquote>
+<hr>
+<h2 id="二虚拟化体系结构">二、虚拟化体系结构<a hidden class="anchor" aria-hidden="true" href="#二虚拟化体系结构">#</a></h2>
+<pre tabindex="0"><code>┌─────────────────────────────────────────┐
 │   虚拟机1     │   虚拟机2    │  虚拟机3    │  ← Guest（客户机）
 │  (Windows)    │  (Linux)    │  (Linux)   │
 ├─────────────────────────────────────────┤
@@ -149,7 +787,51 @@
 ├─────────────────────────────────────────┤
 │          物理硬件（CPU/内存/硬盘/网卡）    │  ← Host（宿主机）
 └─────────────────────────────────────────┘
-</code></pre><h3 id=hypervisor-的两种类型>Hypervisor 的两种类型<a hidden class=anchor aria-hidden=true href=#hypervisor-的两种类型>#</a></h3><table><thead><tr><th>类型</th><th>原生型（裸机型）Native</th><th>宿主型（托管型）Hosted</th></tr></thead><tbody><tr><td><strong>运行位置</strong></td><td>直接跑在硬件上</td><td>跑在操作系统之上</td></tr><tr><td><strong>性能损耗</strong></td><td>较小</td><td>较大</td></tr><tr><td><strong>典型产品</strong></td><td>VMware ESXi、Hyper-V</td><td>VMware Workstation、VirtualBox</td></tr><tr><td><strong>适用场景</strong></td><td>🏢 企业生产环境</td><td>🏠 个人实验/测试</td></tr><tr><td><strong>类比</strong></td><td>独栋别墅，地基自己打</td><td>公寓楼，依赖大楼结构</td></tr></tbody></table><blockquote><p>🎓 <strong>记忆技巧</strong>：<br>原生型 = 裸奔 = Bare-metal → 企业用<br>宿主型 = 寄生 = Hosted → 学习用（我们的课程用 VMware Workstation）</p></blockquote><hr><h2 id=三虚拟化的分类>三、虚拟化的分类<a hidden class=anchor aria-hidden=true href=#三虚拟化的分类>#</a></h2><pre tabindex=0><code>虚拟化
+</code></pre><h3 id="hypervisor-的两种类型">Hypervisor 的两种类型<a hidden class="anchor" aria-hidden="true" href="#hypervisor-的两种类型">#</a></h3>
+<table>
+	<thead>
+			<tr>
+					<th>类型</th>
+					<th>原生型（裸机型）Native</th>
+					<th>宿主型（托管型）Hosted</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>运行位置</strong></td>
+					<td>直接跑在硬件上</td>
+					<td>跑在操作系统之上</td>
+			</tr>
+			<tr>
+					<td><strong>性能损耗</strong></td>
+					<td>较小</td>
+					<td>较大</td>
+			</tr>
+			<tr>
+					<td><strong>典型产品</strong></td>
+					<td>VMware ESXi、Hyper-V</td>
+					<td>VMware Workstation、VirtualBox</td>
+			</tr>
+			<tr>
+					<td><strong>适用场景</strong></td>
+					<td>🏢 企业生产环境</td>
+					<td>🏠 个人实验/测试</td>
+			</tr>
+			<tr>
+					<td><strong>类比</strong></td>
+					<td>独栋别墅，地基自己打</td>
+					<td>公寓楼，依赖大楼结构</td>
+			</tr>
+	</tbody>
+</table>
+<blockquote>
+<p>🎓 <strong>记忆技巧</strong>：<br>
+原生型 = 裸奔 = Bare-metal → 企业用<br>
+宿主型 = 寄生 = Hosted → 学习用（我们的课程用 VMware Workstation）</p>
+</blockquote>
+<hr>
+<h2 id="三虚拟化的分类">三、虚拟化的分类<a hidden class="anchor" aria-hidden="true" href="#三虚拟化的分类">#</a></h2>
+<pre tabindex="0"><code>虚拟化
 ├── 平台虚拟化 ───── 针对计算机和操作系统
 │   ├── 服务器虚拟化    → VMware ESXi、Hyper-V、XenServer
 │   └── 桌面虚拟化      → 远程桌面、云桌面
@@ -161,22 +843,244 @@
 └── 应用程序虚拟化 ── 针对软件运行环境
     ├── Java 虚拟机（JVM）
     └── Docker 容器（后续课程重点！）
-</code></pre><hr><h2 id=四全虚拟化-vs-半虚拟化>四、全虚拟化 vs 半虚拟化<a hidden class=anchor aria-hidden=true href=#四全虚拟化-vs-半虚拟化>#</a></h2><table><thead><tr><th>维度</th><th>全虚拟化</th><th>半虚拟化</th></tr></thead><tbody><tr><td><strong>是否需要修改 OS</strong></td><td>❌ 不需要</td><td>✅ 需要</td></tr><tr><td><strong>用户感知</strong></td><td>不感知（以为在真机）</td><td>能感知（知道在虚拟环境）</td></tr><tr><td><strong>兼容性</strong></td><td>强，支持任意 OS</td><td>弱，需定制 OS</td></tr><tr><td><strong>性能</strong></td><td>略低（Hypervisor 开销）</td><td>较好</td></tr><tr><td><strong>未来趋势</strong></td><td>🏆 主流</td><td>辅助角色</td></tr></tbody></table><hr><h2 id=五云计算中的主流虚拟化技术>五、云计算中的主流虚拟化技术<a hidden class=anchor aria-hidden=true href=#五云计算中的主流虚拟化技术>#</a></h2><table><thead><tr><th>技术</th><th>类型</th><th>特点</th><th>与 Docker 的关系</th></tr></thead><tbody><tr><td><strong>KVM</strong></td><td>全虚拟化</td><td>Linux 内核原生、OpenStack 默认</td><td>Docker 早期基于 LXC（类似理念）</td></tr><tr><td><strong>Xen</strong></td><td>全/半虚拟化</td><td>开源、Amazon AWS 早期使用</td><td>—</td></tr><tr><td><strong>Hyper-V</strong></td><td>全虚拟化</td><td>微软出品、Windows 集成</td><td>Docker Desktop 依赖 Hyper-V（Windows）</td></tr><tr><td><strong>VMware ESXi</strong></td><td>全虚拟化</td><td>企业级、业界标杆</td><td>vSphere 集成 Docker</td></tr><tr><td><strong>容器（Docker）</strong></td><td>🌟 操作系统级虚拟化</td><td>轻量、秒级启动</td><td>本课程核心！</td></tr></tbody></table><blockquote><p>🔥 <strong>重要提示</strong>：Docker 是<strong>操作系统级虚拟化（容器）</strong>，不是传统虚拟机。<br>本质区别：虚拟机虚拟硬件 → 每个 VM 有自己的 OS；容器共享宿主机 OS → 只隔离应用进程。</p></blockquote><hr><h2 id=六kvm-虚拟化架构深入理解>六、KVM 虚拟化架构（深入理解）<a hidden class=anchor aria-hidden=true href=#六kvm-虚拟化架构深入理解>#</a></h2><blockquote><p>Linux 平台上最重要的虚拟化方案，也是理解云平台底层的关键。</p></blockquote><h3 id=kvm-两大组件>KVM 两大组件<a hidden class=anchor aria-hidden=true href=#kvm-两大组件>#</a></h3><table><thead><tr><th>组件</th><th>运行位置</th><th>职责</th></tr></thead><tbody><tr><td><strong>KVM 内核模块</strong></td><td>内核空间</td><td>CPU/内存虚拟化管理</td></tr><tr><td><strong>QEMU</strong></td><td>用户空间</td><td>I/O 设备模拟、虚拟机配置</td></tr></tbody></table><h3 id=kvm-虚拟磁盘格式>KVM 虚拟磁盘格式<a hidden class=anchor aria-hidden=true href=#kvm-虚拟磁盘格式>#</a></h3><table><thead><tr><th>格式</th><th>特点</th><th>什么时候用</th></tr></thead><tbody><tr><td><strong>raw</strong></td><td>直读直写、最简单、支持增减容量</td><td>大数据存储</td></tr><tr><td><strong>qcow2</strong></td><td>按需分配空间、支持快照/压缩/加密</td><td><strong>默认选择</strong> ✅</td></tr><tr><td><strong>qed</strong></td><td>qcow2 改进版</td><td>尚未成熟</td></tr></tbody></table><blockquote><p>💡 <strong>本课程实操用 VMware Workstation</strong>（宿主型、适合学习），<br><strong>企业环境用 KVM/ESXi</strong>（原生型、高性能）。</p></blockquote><hr><h1 id=第四部分项目实施--vmware-安装25-min>第四部分：项目实施 — VMware 安装（25 min）<a hidden class=anchor aria-hidden=true href=#第四部分项目实施--vmware-安装25-min>#</a></h1><hr><h2 id=-131-vmware-workstation-安装>🛠 1.3.1 VMware Workstation 安装<a hidden class=anchor aria-hidden=true href=#-131-vmware-workstation-安装>#</a></h2><blockquote><p><strong>软件准备</strong>：VMware Workstation Pro / Player<br><strong>系统要求</strong>：Windows 10/11 64位，至少 8GB 内存，支持虚拟化技术</p></blockquote><h3 id=安装前检查>安装前检查<a hidden class=anchor aria-hidden=true href=#安装前检查>#</a></h3><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
-</span><span class=lnt>2
-</span><span class=lnt>3
-</span><span class=lnt>4
-</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-powershell data-lang=powershell><span class=line><span class=cl><span class=c># 检查 CPU 是否支持虚拟化</span>
-</span></span><span class=line><span class=cl><span class=n>systeminfo</span> <span class=p>|</span> <span class=n>findstr</span> <span class=s2>&#34;虚拟化&#34;</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=c># 或通过任务管理器 → 性能 → CPU → 查看「虚拟化：已启用」</span>
-</span></span></code></pre></td></tr></table></div></div><blockquote><p>⚠️ <strong>常见问题</strong>：如果显示"已禁用"，需要进入 BIOS 开启 Intel VT-x 或 AMD-V。</p></blockquote><h3 id=安装步骤教师演示>安装步骤（教师演示）<a hidden class=anchor aria-hidden=true href=#安装步骤教师演示>#</a></h3><ol><li>下载 VMware Workstation → 双击安装程序</li><li>接受许可协议 → 选择安装路径</li><li>勾选「增强型键盘驱动程序」</li><li>等待安装完成 → 输入许可证密钥</li><li>重启计算机</li></ol><hr><h2 id=-132-创建虚拟机>🖥 1.3.2 创建虚拟机<a hidden class=anchor aria-hidden=true href=#-132-创建虚拟机>#</a></h2><h3 id=典型配置方案以-centos-7-为例>典型配置方案（以 CentOS 7 为例）<a hidden class=anchor aria-hidden=true href=#典型配置方案以-centos-7-为例>#</a></h3><table><thead><tr><th>配置项</th><th>推荐值</th><th>说明</th></tr></thead><tbody><tr><td>操作系统</td><td>CentOS 7 / Ubuntu 20.04</td><td>选 Linux</td></tr><tr><td>CPU</td><td>2 核</td><td>不低于 1 核</td></tr><tr><td>内存</td><td>4 GB</td><td>不低于 2 GB</td></tr><tr><td>硬盘</td><td>40 GB（qcow2 按需分配）</td><td>存储为单个文件</td></tr><tr><td>网络</td><td>NAT 模式</td><td>可访问外网</td></tr><tr><td>虚拟化引擎</td><td>勾选 Intel VT-x/AMD-V</td><td>嵌套虚拟化支持</td></tr></tbody></table><h3 id=关键步骤图解>关键步骤图解<a hidden class=anchor aria-hidden=true href=#关键步骤图解>#</a></h3><pre tabindex=0><code>1. 新建虚拟机 → 典型（推荐）
+</code></pre><hr>
+<h2 id="四全虚拟化-vs-半虚拟化">四、全虚拟化 vs 半虚拟化<a hidden class="anchor" aria-hidden="true" href="#四全虚拟化-vs-半虚拟化">#</a></h2>
+<table>
+	<thead>
+			<tr>
+					<th>维度</th>
+					<th>全虚拟化</th>
+					<th>半虚拟化</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>是否需要修改 OS</strong></td>
+					<td>❌ 不需要</td>
+					<td>✅ 需要</td>
+			</tr>
+			<tr>
+					<td><strong>用户感知</strong></td>
+					<td>不感知（以为在真机）</td>
+					<td>能感知（知道在虚拟环境）</td>
+			</tr>
+			<tr>
+					<td><strong>兼容性</strong></td>
+					<td>强，支持任意 OS</td>
+					<td>弱，需定制 OS</td>
+			</tr>
+			<tr>
+					<td><strong>性能</strong></td>
+					<td>略低（Hypervisor 开销）</td>
+					<td>较好</td>
+			</tr>
+			<tr>
+					<td><strong>未来趋势</strong></td>
+					<td>🏆 主流</td>
+					<td>辅助角色</td>
+			</tr>
+	</tbody>
+</table>
+<hr>
+<h2 id="五云计算中的主流虚拟化技术">五、云计算中的主流虚拟化技术<a hidden class="anchor" aria-hidden="true" href="#五云计算中的主流虚拟化技术">#</a></h2>
+<table>
+	<thead>
+			<tr>
+					<th>技术</th>
+					<th>类型</th>
+					<th>特点</th>
+					<th>与 Docker 的关系</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>KVM</strong></td>
+					<td>全虚拟化</td>
+					<td>Linux 内核原生、OpenStack 默认</td>
+					<td>Docker 早期基于 LXC（类似理念）</td>
+			</tr>
+			<tr>
+					<td><strong>Xen</strong></td>
+					<td>全/半虚拟化</td>
+					<td>开源、Amazon AWS 早期使用</td>
+					<td>—</td>
+			</tr>
+			<tr>
+					<td><strong>Hyper-V</strong></td>
+					<td>全虚拟化</td>
+					<td>微软出品、Windows 集成</td>
+					<td>Docker Desktop 依赖 Hyper-V（Windows）</td>
+			</tr>
+			<tr>
+					<td><strong>VMware ESXi</strong></td>
+					<td>全虚拟化</td>
+					<td>企业级、业界标杆</td>
+					<td>vSphere 集成 Docker</td>
+			</tr>
+			<tr>
+					<td><strong>容器（Docker）</strong></td>
+					<td>🌟 操作系统级虚拟化</td>
+					<td>轻量、秒级启动</td>
+					<td>本课程核心！</td>
+			</tr>
+	</tbody>
+</table>
+<blockquote>
+<p>🔥 <strong>重要提示</strong>：Docker 是<strong>操作系统级虚拟化（容器）</strong>，不是传统虚拟机。<br>
+本质区别：虚拟机虚拟硬件 → 每个 VM 有自己的 OS；容器共享宿主机 OS → 只隔离应用进程。</p>
+</blockquote>
+<hr>
+<h2 id="六kvm-虚拟化架构深入理解">六、KVM 虚拟化架构（深入理解）<a hidden class="anchor" aria-hidden="true" href="#六kvm-虚拟化架构深入理解">#</a></h2>
+<blockquote>
+<p>Linux 平台上最重要的虚拟化方案，也是理解云平台底层的关键。</p>
+</blockquote>
+<h3 id="kvm-两大组件">KVM 两大组件<a hidden class="anchor" aria-hidden="true" href="#kvm-两大组件">#</a></h3>
+<table>
+	<thead>
+			<tr>
+					<th>组件</th>
+					<th>运行位置</th>
+					<th>职责</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>KVM 内核模块</strong></td>
+					<td>内核空间</td>
+					<td>CPU/内存虚拟化管理</td>
+			</tr>
+			<tr>
+					<td><strong>QEMU</strong></td>
+					<td>用户空间</td>
+					<td>I/O 设备模拟、虚拟机配置</td>
+			</tr>
+	</tbody>
+</table>
+<h3 id="kvm-虚拟磁盘格式">KVM 虚拟磁盘格式<a hidden class="anchor" aria-hidden="true" href="#kvm-虚拟磁盘格式">#</a></h3>
+<table>
+	<thead>
+			<tr>
+					<th>格式</th>
+					<th>特点</th>
+					<th>什么时候用</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>raw</strong></td>
+					<td>直读直写、最简单、支持增减容量</td>
+					<td>大数据存储</td>
+			</tr>
+			<tr>
+					<td><strong>qcow2</strong></td>
+					<td>按需分配空间、支持快照/压缩/加密</td>
+					<td><strong>默认选择</strong> ✅</td>
+			</tr>
+			<tr>
+					<td><strong>qed</strong></td>
+					<td>qcow2 改进版</td>
+					<td>尚未成熟</td>
+			</tr>
+	</tbody>
+</table>
+<blockquote>
+<p>💡 <strong>本课程实操用 VMware Workstation</strong>（宿主型、适合学习），<br>
+<strong>企业环境用 KVM/ESXi</strong>（原生型、高性能）。</p>
+</blockquote>
+<hr>
+<h1 id="第四部分项目实施--vmware-安装25-min">第四部分：项目实施 — VMware 安装（25 min）<a hidden class="anchor" aria-hidden="true" href="#第四部分项目实施--vmware-安装25-min">#</a></h1>
+<hr>
+<h2 id="-131-vmware-workstation-安装">🛠 1.3.1 VMware Workstation 安装<a hidden class="anchor" aria-hidden="true" href="#-131-vmware-workstation-安装">#</a></h2>
+<blockquote>
+<p><strong>软件准备</strong>：VMware Workstation Pro / Player<br>
+<strong>系统要求</strong>：Windows 10/11 64位，至少 8GB 内存，支持虚拟化技术</p>
+</blockquote>
+<h3 id="安装前检查">安装前检查<a hidden class="anchor" aria-hidden="true" href="#安装前检查">#</a></h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="c"># 检查 CPU 是否支持虚拟化</span>
+</span></span><span class="line"><span class="cl"><span class="n">systeminfo</span> <span class="p">|</span> <span class="n">findstr</span> <span class="s2">&#34;虚拟化&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c"># 或通过任务管理器 → 性能 → CPU → 查看「虚拟化：已启用」</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><blockquote>
+<p>⚠️ <strong>常见问题</strong>：如果显示&quot;已禁用&quot;，需要进入 BIOS 开启 Intel VT-x 或 AMD-V。</p>
+</blockquote>
+<h3 id="安装步骤教师演示">安装步骤（教师演示）<a hidden class="anchor" aria-hidden="true" href="#安装步骤教师演示">#</a></h3>
+<ol>
+<li>下载 VMware Workstation → 双击安装程序</li>
+<li>接受许可协议 → 选择安装路径</li>
+<li>勾选「增强型键盘驱动程序」</li>
+<li>等待安装完成 → 输入许可证密钥</li>
+<li>重启计算机</li>
+</ol>
+<hr>
+<h2 id="-132-创建虚拟机">🖥 1.3.2 创建虚拟机<a hidden class="anchor" aria-hidden="true" href="#-132-创建虚拟机">#</a></h2>
+<h3 id="典型配置方案以-centos-7-为例">典型配置方案（以 CentOS 7 为例）<a hidden class="anchor" aria-hidden="true" href="#典型配置方案以-centos-7-为例">#</a></h3>
+<table>
+	<thead>
+			<tr>
+					<th>配置项</th>
+					<th>推荐值</th>
+					<th>说明</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>操作系统</td>
+					<td>CentOS 7 / Ubuntu 20.04</td>
+					<td>选 Linux</td>
+			</tr>
+			<tr>
+					<td>CPU</td>
+					<td>2 核</td>
+					<td>不低于 1 核</td>
+			</tr>
+			<tr>
+					<td>内存</td>
+					<td>4 GB</td>
+					<td>不低于 2 GB</td>
+			</tr>
+			<tr>
+					<td>硬盘</td>
+					<td>40 GB（qcow2 按需分配）</td>
+					<td>存储为单个文件</td>
+			</tr>
+			<tr>
+					<td>网络</td>
+					<td>NAT 模式</td>
+					<td>可访问外网</td>
+			</tr>
+			<tr>
+					<td>虚拟化引擎</td>
+					<td>勾选 Intel VT-x/AMD-V</td>
+					<td>嵌套虚拟化支持</td>
+			</tr>
+	</tbody>
+</table>
+<h3 id="关键步骤图解">关键步骤图解<a hidden class="anchor" aria-hidden="true" href="#关键步骤图解">#</a></h3>
+<pre tabindex="0"><code>1. 新建虚拟机 → 典型（推荐）
 2. 稍后安装操作系统
 3. 选择 Linux → CentOS 7 64位
 4. 命名虚拟机 → 选择存储位置
 5. 指定磁盘容量 → 「将虚拟磁盘存储为单个文件」
 6. 自定义硬件 → 挂载 ISO 镜像
 7. 完成 → 开启虚拟机 → 按提示安装系统
-</code></pre><blockquote><p>🎯 <strong>课堂练习</strong>：每人安装 VMware Workstation 并创建一台 CentOS 虚拟机。</p></blockquote><hr><h1 id=-课程总结>📝 课程总结<a hidden class=anchor aria-hidden=true href=#-课程总结>#</a></h1><hr><h2 id=-本课知识地图>🗺 本课知识地图<a hidden class=anchor aria-hidden=true href=#-本课知识地图>#</a></h2><pre tabindex=0><code>云计算基础
+</code></pre><blockquote>
+<p>🎯 <strong>课堂练习</strong>：每人安装 VMware Workstation 并创建一台 CentOS 虚拟机。</p>
+</blockquote>
+<hr>
+<h1 id="-课程总结">📝 课程总结<a hidden class="anchor" aria-hidden="true" href="#-课程总结">#</a></h1>
+<hr>
+<h2 id="-本课知识地图">🗺 本课知识地图<a hidden class="anchor" aria-hidden="true" href="#-本课知识地图">#</a></h2>
+<pre tabindex="0"><code>云计算基础
 ├── 云计算概述
 │   ├── 起源：2006年 Google 提出概念
 │   ├── 定义：通过网络按需获取计算资源
@@ -194,8 +1098,145 @@
 └── 项目实施
     ├── VMware Workstation 安装
     └── 虚拟机创建（CentOS）
-</code></pre><hr><h2 id=-课后自测>✅ 课后自测<a hidden class=anchor aria-hidden=true href=#-课后自测>#</a></h2><ol><li><strong>云计算三大服务模式</strong>分别是什么？请各举一个产品例子。</li><li>IaaS 和 PaaS 的区别是什么？什么场景选 IaaS，什么场景选 PaaS？</li><li>虚拟化前一台物理机的利用率通常只有多少？虚拟化后能达到多少？</li><li>原生型 Hypervisor 和宿主型 Hypervisor 有什么区别？VMware Workstation 属于哪种？</li><li><strong>全虚拟化和半虚拟化</strong>的核心区别是什么？</li><li>Docker 属于传统虚拟化吗？它的虚拟化方式叫什么？</li></ol><hr><h2 id=-课后任务>📚 课后任务<a hidden class=anchor aria-hidden=true href=#-课后任务>#</a></h2><table><thead><tr><th>任务</th><th>内容</th><th>截止时间</th></tr></thead><tbody><tr><td>🔧 <strong>实操</strong></td><td>在自己的电脑上安装 VMware Workstation，创建一台虚拟机</td><td>下次课前</td></tr><tr><td>📖 <strong>预习</strong></td><td>阅读教材「项目2 Docker 概述」</td><td>下次课前</td></tr><tr><td>💬 <strong>思考</strong></td><td>想一想：你生活中哪些产品用到了云计算？它们分别属于 IaaS/PaaS/SaaS 哪一层？</td><td>课堂讨论</td></tr></tbody></table><hr><h2 id=-参考资料>📎 参考资料<a hidden class=anchor aria-hidden=true href=#-参考资料>#</a></h2><ul><li>《Docker 容器技术与应用项目教程》教材</li><li>AWS 官方文档：https://aws.amazon.com/what-is-cloud-computing/</li><li>VMware 官方文档：https://docs.vmware.com/</li><li>KVM 官网：https://linux-kvm.org/</li></ul><hr><blockquote><p>🎓 <strong>下节课预告</strong>：有了虚拟化的基础，我们正式进入 Docker 的世界——为什么 Docker 被称为「轻量级虚拟化」？它比传统虚拟机快多少？</p></blockquote></div><footer class=post-footer><ul class=post-tags></ul></footer></article></main><footer class=footer><span>© 2026 Faye</span> ·
-<span>Powered by
-<a href="https://gohugo.io/?utm_source=papermod" rel=noopener target=_blank>Hugo</a> &
-<a href=https://github.com/adityatelange/hugo-PaperMod/ rel=noopener target=_blank>PaperMod</a></span></footer><a href=#top id=top-link class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey=g><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up"><polyline points="17 11 12 6 7 11"/><polyline points="17 18 12 13 7 18"/></svg>
-</a><script>let menu=document.getElementById("menu");if(menu){const e=localStorage.getItem("menu-scroll-position");e&&(menu.scrollLeft=parseInt(e,10)),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)}}document.querySelectorAll('a[href^="#"]').forEach(e=>{e.addEventListener("click",function(e){e.preventDefault();var t=this.getAttribute("href").substr(1);window.matchMedia("(prefers-reduced-motion: reduce)").matches?document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView({behavior:"smooth"}),t==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${t}`)})})</script><script>var toplink=document.getElementById("top-link");window.onscroll=function(){const e=window.innerHeight;document.body.scrollTop>e||document.documentElement.scrollTop>e?toplink.classList.remove("hidden"):toplink.classList.add("hidden")}</script><script>document.getElementById("theme-toggle").addEventListener("click",()=>{const e=document.querySelector("html");e.dataset.theme==="dark"?(e.dataset.theme="light",localStorage.setItem("pref-theme","light")):(e.dataset.theme="dark",localStorage.setItem("pref-theme","dark"))})</script></body></html>
+</code></pre><hr>
+<h2 id="-课后自测">✅ 课后自测<a hidden class="anchor" aria-hidden="true" href="#-课后自测">#</a></h2>
+<ol>
+<li><strong>云计算三大服务模式</strong>分别是什么？请各举一个产品例子。</li>
+<li>IaaS 和 PaaS 的区别是什么？什么场景选 IaaS，什么场景选 PaaS？</li>
+<li>虚拟化前一台物理机的利用率通常只有多少？虚拟化后能达到多少？</li>
+<li>原生型 Hypervisor 和宿主型 Hypervisor 有什么区别？VMware Workstation 属于哪种？</li>
+<li><strong>全虚拟化和半虚拟化</strong>的核心区别是什么？</li>
+<li>Docker 属于传统虚拟化吗？它的虚拟化方式叫什么？</li>
+</ol>
+<hr>
+<h2 id="-课后任务">📚 课后任务<a hidden class="anchor" aria-hidden="true" href="#-课后任务">#</a></h2>
+<table>
+	<thead>
+			<tr>
+					<th>任务</th>
+					<th>内容</th>
+					<th>截止时间</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>🔧 <strong>实操</strong></td>
+					<td>在自己的电脑上安装 VMware Workstation，创建一台虚拟机</td>
+					<td>下次课前</td>
+			</tr>
+			<tr>
+					<td>📖 <strong>预习</strong></td>
+					<td>阅读教材「项目2 Docker 概述」</td>
+					<td>下次课前</td>
+			</tr>
+			<tr>
+					<td>💬 <strong>思考</strong></td>
+					<td>想一想：你生活中哪些产品用到了云计算？它们分别属于 IaaS/PaaS/SaaS 哪一层？</td>
+					<td>课堂讨论</td>
+			</tr>
+	</tbody>
+</table>
+<hr>
+<h2 id="-参考资料">📎 参考资料<a hidden class="anchor" aria-hidden="true" href="#-参考资料">#</a></h2>
+<ul>
+<li>《Docker 容器技术与应用项目教程》教材</li>
+<li>AWS 官方文档：https://aws.amazon.com/what-is-cloud-computing/</li>
+<li>VMware 官方文档：https://docs.vmware.com/</li>
+<li>KVM 官网：https://linux-kvm.org/</li>
+</ul>
+<hr>
+<blockquote>
+<p>🎓 <strong>下节课预告</strong>：有了虚拟化的基础，我们正式进入 Docker 的世界——为什么 Docker 被称为「轻量级虚拟化」？它比传统虚拟机快多少？</p>
+</blockquote>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>© 2026 Faye</span> · 
+
+    
+    
+    <span>
+        Powered by
+        <a href="https://gohugo.io/?utm_source=papermod" rel="noopener" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var toplink = document.getElementById("top-link");
+    window.onscroll = function () {
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
+        } else {
+            toplink.classList.add("hidden");
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>
