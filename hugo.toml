@@ -1,0 +1,68 @@
+# ============================
+# 博客基本配置
+# ============================
+baseURL = 'https://FeiWang1998.github.io/'
+locale = 'zh-cn'
+title = "Faye的笔记本"
+copyright = "© 2026 Faye"
+hasCJKLanguage = true
+
+# ============================
+# 主题设置
+# ============================
+theme = "PaperMod"
+
+# 启用代码高亮
+[markup]
+  [markup.highlight]
+    style = "monokai"
+    lineNos = true
+    noClasses = false
+
+# ============================
+# 首页展示
+# ============================
+[params]
+  # 首页信息卡片
+  [params.homeInfoParams]
+    Title = "👋 你好，我是Faye"
+    Content = "在这里分享心得和实践经验。"
+
+  # 社交图标
+  socialIcons = [
+    { name = "github", url = "https://github.com/FeiWang1998" },
+    { name = "email", url = "mailto:wf980108@163.com" }
+  ]
+
+  # 显示的文章元信息
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  ShowToc = true
+  TocOpen = true
+
+# ============================
+# 顶部导航
+# ============================
+[[menu.main]]
+  name = "文章"
+  url = "/posts/"
+  weight = 1
+
+[[menu.main]]
+  name = "分类"
+  url = "/categories/"
+  weight = 2
+
+[[menu.main]]
+  name = "标签"
+  url = "/tags/"
+  weight = 3
+
+[[menu.main]]
+  name = "关于"
+  url = "/about/"
+  weight = 4
