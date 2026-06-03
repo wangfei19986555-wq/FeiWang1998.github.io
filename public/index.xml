@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Faye的笔记本</title><link>https://wangfei19986555-wq.github.io/FeiWang1998.github.io/</link><description>Recent content on Faye的笔记本</description><generator>Hugo</generator><language>zh-cn</language><copyright>2026 Faye</copyright><lastBuildDate>Tue, 02 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://wangfei19986555-wq.github.io/FeiWang1998.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>云计算基础</title><link>https://wangfei19986555-wq.github.io/FeiWang1998.github.io/posts/%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%AF%BE%E4%BA%91%E8%AE%A1%E7%AE%97%E5%9F%BA%E7%A1%80-%E8%AF%BE%E5%A0%82%E6%95%99%E5%AD%A6-%E5%8E%9F%E7%89%88/</link><pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate><guid>https://wangfei19986555-wq.github.io/FeiWang1998.github.io/posts/%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%AF%BE%E4%BA%91%E8%AE%A1%E7%AE%97%E5%9F%BA%E7%A1%80-%E8%AF%BE%E5%A0%82%E6%95%99%E5%AD%A6-%E5%8E%9F%E7%89%88/</guid><description>&lt;h1 id="-第一次课云计算基础"&gt;📘 第一次课：云计算基础&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Faye的笔记本</title><link>https://wangfei19986555-wq.github.io/feiwang1998.github.io/</link><description>Recent content on Faye的笔记本</description><generator>Hugo</generator><language>zh-cn</language><copyright>2026 Faye</copyright><lastBuildDate>Tue, 02 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://wangfei19986555-wq.github.io/feiwang1998.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>云计算基础</title><link>https://wangfei19986555-wq.github.io/feiwang1998.github.io/posts/%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%AF%BE%E4%BA%91%E8%AE%A1%E7%AE%97%E5%9F%BA%E7%A1%80-%E8%AF%BE%E5%A0%82%E6%95%99%E5%AD%A6-%E5%8E%9F%E7%89%88/</link><pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate><guid>https://wangfei19986555-wq.github.io/feiwang1998.github.io/posts/%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%AF%BE%E4%BA%91%E8%AE%A1%E7%AE%97%E5%9F%BA%E7%A1%80-%E8%AF%BE%E5%A0%82%E6%95%99%E5%AD%A6-%E5%8E%9F%E7%89%88/</guid><description>&lt;h1 id="-第一次课云计算基础"&gt;📘 第一次课：云计算基础&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;课程名称&lt;/strong&gt;：《Docker 容器技术与应用项目教程》&lt;br&gt;
 &lt;strong&gt;章节&lt;/strong&gt;：项目1 — 云计算基础&lt;br&gt;
@@ -72,7 +72,7 @@
 &lt;hr&gt;
 &lt;h2 id="-课堂导入一个你每天都在经历的场景"&gt;🎬 课堂导入：一个你每天都在经历的场景&lt;/h2&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;想一想&lt;/strong&gt;：你今天用手机了吗？&lt;/p&gt;</description></item><item><title>关于我</title><link>https://wangfei19986555-wq.github.io/FeiWang1998.github.io/about/</link><pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate><guid>https://wangfei19986555-wq.github.io/FeiWang1998.github.io/about/</guid><description>&lt;h2 id="我是谁"&gt;我是谁？&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;想一想&lt;/strong&gt;：你今天用手机了吗？&lt;/p&gt;</description></item><item><title>关于我</title><link>https://wangfei19986555-wq.github.io/feiwang1998.github.io/about/</link><pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate><guid>https://wangfei19986555-wq.github.io/feiwang1998.github.io/about/</guid><description>&lt;h2 id="我是谁"&gt;我是谁？&lt;/h2&gt;
 &lt;p&gt;Faye，一枚大专老师，家有一个可爱女宝，这里是我的自留地，有一些碎碎念和备课资料。&lt;/p&gt;
 &lt;p&gt;主要讲授课程：&lt;/p&gt;
 &lt;ul&gt;
@@ -81,7 +81,7 @@
 &lt;li&gt;机器学习&lt;/li&gt;
 &lt;li&gt;区块链&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;研究方向：可解释人工智能（XAI）、信用评级、联邦学习。&lt;/p&gt;</description></item><item><title>博客上线！第一篇聊聊云计算</title><link>https://wangfei19986555-wq.github.io/FeiWang1998.github.io/posts/2026-06-02-hello-world/</link><pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate><guid>https://wangfei19986555-wq.github.io/FeiWang1998.github.io/posts/2026-06-02-hello-world/</guid><description>&lt;h2 id="什么是云计算用大白话讲清楚"&gt;什么是云计算？用大白话讲清楚&lt;/h2&gt;
+&lt;p&gt;研究方向：可解释人工智能（XAI）、信用评级、联邦学习。&lt;/p&gt;</description></item><item><title>博客上线！第一篇聊聊云计算</title><link>https://wangfei19986555-wq.github.io/feiwang1998.github.io/posts/2026-06-02-hello-world/</link><pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate><guid>https://wangfei19986555-wq.github.io/feiwang1998.github.io/posts/2026-06-02-hello-world/</guid><description>&lt;h2 id="什么是云计算用大白话讲清楚"&gt;什么是云计算？用大白话讲清楚&lt;/h2&gt;
 &lt;p&gt;如果你觉得&amp;quot;云计算&amp;quot;这个词很高大上，先别急，我给你讲个最接地气的比喻——&lt;/p&gt;
 &lt;h3 id="从打井到自来水"&gt;从「打井」到「自来水」&lt;/h3&gt;
 &lt;p&gt;以前的人喝水要自己挖井。每家每户都要：&lt;/p&gt;
@@ -91,7 +91,7 @@
 &lt;li&gt;井坏了自己修&lt;/li&gt;
 &lt;li&gt;旱季水不够用也没办法&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;后来有了自来水公司，你只需要：&lt;/p&gt;</description></item><item><title>博客操作指南</title><link>https://wangfei19986555-wq.github.io/FeiWang1998.github.io/posts/2026-06-10-%E5%8D%9A%E5%AE%A2%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97/</link><pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate><guid>https://wangfei19986555-wq.github.io/FeiWang1998.github.io/posts/2026-06-10-%E5%8D%9A%E5%AE%A2%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97/</guid><description>&lt;blockquote&gt;
+&lt;p&gt;后来有了自来水公司，你只需要：&lt;/p&gt;</description></item><item><title>博客操作指南</title><link>https://wangfei19986555-wq.github.io/feiwang1998.github.io/posts/2026-06-10-%E5%8D%9A%E5%AE%A2%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97/</link><pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate><guid>https://wangfei19986555-wq.github.io/feiwang1998.github.io/posts/2026-06-10-%E5%8D%9A%E5%AE%A2%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97/</guid><description>&lt;blockquote&gt;
 &lt;p&gt;博客位置：&lt;code&gt;C:\Users\wf980\Desktop\myblog\&lt;/code&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;hr&gt;
@@ -143,7 +143,7 @@
 &lt;/div&gt;
 &lt;/div&gt;&lt;hr&gt;
 &lt;h2 id="-写一篇新文章"&gt;📝 写一篇新文章&lt;/h2&gt;
-&lt;p&gt;在终端输入：&lt;/p&gt;</description></item><item><title>方向分析与建议</title><link>https://wangfei19986555-wq.github.io/FeiWang1998.github.io/posts/%E5%89%AF%E4%B8%9A%E6%96%B9%E5%90%91%E5%88%86%E6%9E%90/</link><pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate><guid>https://wangfei19986555-wq.github.io/FeiWang1998.github.io/posts/%E5%89%AF%E4%B8%9A%E6%96%B9%E5%90%91%E5%88%86%E6%9E%90/</guid><description>&lt;h1 id="-副业方向分析与建议"&gt;💰 副业方向分析与建议&lt;/h1&gt;
+&lt;p&gt;在终端输入：&lt;/p&gt;</description></item><item><title>方向分析与建议</title><link>https://wangfei19986555-wq.github.io/feiwang1998.github.io/posts/%E5%89%AF%E4%B8%9A%E6%96%B9%E5%90%91%E5%88%86%E6%9E%90/</link><pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate><guid>https://wangfei19986555-wq.github.io/feiwang1998.github.io/posts/%E5%89%AF%E4%B8%9A%E6%96%B9%E5%90%91%E5%88%86%E6%9E%90/</guid><description>&lt;h1 id="-副业方向分析与建议"&gt;💰 副业方向分析与建议&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;基于你的背景：高校教师 / AI 机器学习方向 / Python 开发 / 数据分析&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -521,7 +521,7 @@
 &lt;li&gt;&lt;strong&gt;企业AI培训/咨询&lt;/strong&gt; — 你已有行业老师课酬经验，客单价高，一次半天顶一个月工资差值&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Kaggle/天池竞赛&lt;/strong&gt; — 和你研究方向完全吻合，既能攒履历又能赚钱，一举两得&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;技术博客 + 知识付费&lt;/strong&gt; — 边际成本低，一篇好文章能持续带来流量和机会&lt;/li&gt;
-&lt;/ol&gt;</description></item><item><title/><link>https://wangfei19986555-wq.github.io/FeiWang1998.github.io/posts/%E7%8E%AF%E5%A2%83%E6%89%AB%E6%8F%8F%E6%8A%A5%E5%91%8A/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wangfei19986555-wq.github.io/FeiWang1998.github.io/posts/%E7%8E%AF%E5%A2%83%E6%89%AB%E6%8F%8F%E6%8A%A5%E5%91%8A/</guid><description>&lt;h1 id="-电脑环境扫描报告"&gt;🔍 电脑环境扫描报告&lt;/h1&gt;
+&lt;/ol&gt;</description></item><item><title/><link>https://wangfei19986555-wq.github.io/feiwang1998.github.io/posts/%E7%8E%AF%E5%A2%83%E6%89%AB%E6%8F%8F%E6%8A%A5%E5%91%8A/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wangfei19986555-wq.github.io/feiwang1998.github.io/posts/%E7%8E%AF%E5%A2%83%E6%89%AB%E6%8F%8F%E6%8A%A5%E5%91%8A/</guid><description>&lt;h1 id="-电脑环境扫描报告"&gt;🔍 电脑环境扫描报告&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;扫描时间：2026-06-02&lt;br&gt;
 用户目录：&lt;code&gt;C:\Users\wf980&lt;/code&gt;&lt;/p&gt;
