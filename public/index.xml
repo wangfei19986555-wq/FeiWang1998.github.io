@@ -1,20 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>Faye的笔记本</title>
-    <link>http://localhost:1313/FeiWang1998.github.io/</link>
-    <description>Recent content on Faye的笔记本</description>
-    <generator>Hugo</generator>
-    <language>zh-cn</language>
-    <copyright>2026 Faye</copyright>
-    <lastBuildDate>Tue, 02 Jun 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/FeiWang1998.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>云计算基础</title>
-      <link>http://localhost:1313/FeiWang1998.github.io/posts/%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%AF%BE%E4%BA%91%E8%AE%A1%E7%AE%97%E5%9F%BA%E7%A1%80-%E8%AF%BE%E5%A0%82%E6%95%99%E5%AD%A6-%E5%8E%9F%E7%89%88/</link>
-      <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/FeiWang1998.github.io/posts/%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%AF%BE%E4%BA%91%E8%AE%A1%E7%AE%97%E5%9F%BA%E7%A1%80-%E8%AF%BE%E5%A0%82%E6%95%99%E5%AD%A6-%E5%8E%9F%E7%89%88/</guid>
-      <description>&lt;h1 id=&#34;-第一次课云计算基础&#34;&gt;📘 第一次课：云计算基础&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Faye的笔记本</title><link>https://wangfei19986555-wq.github.io/FeiWang1998.github.io/</link><description>Recent content on Faye的笔记本</description><generator>Hugo</generator><language>zh-cn</language><copyright>2026 Faye</copyright><lastBuildDate>Tue, 02 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://wangfei19986555-wq.github.io/FeiWang1998.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>云计算基础</title><link>https://wangfei19986555-wq.github.io/FeiWang1998.github.io/posts/%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%AF%BE%E4%BA%91%E8%AE%A1%E7%AE%97%E5%9F%BA%E7%A1%80-%E8%AF%BE%E5%A0%82%E6%95%99%E5%AD%A6-%E5%8E%9F%E7%89%88/</link><pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate><guid>https://wangfei19986555-wq.github.io/FeiWang1998.github.io/posts/%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%AF%BE%E4%BA%91%E8%AE%A1%E7%AE%97%E5%9F%BA%E7%A1%80-%E8%AF%BE%E5%A0%82%E6%95%99%E5%AD%A6-%E5%8E%9F%E7%89%88/</guid><description>&lt;h1 id="-第一次课云计算基础"&gt;📘 第一次课：云计算基础&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;课程名称&lt;/strong&gt;：《Docker 容器技术与应用项目教程》&lt;br&gt;
 &lt;strong&gt;章节&lt;/strong&gt;：项目1 — 云计算基础&lt;br&gt;
@@ -22,80 +6,73 @@
 &lt;strong&gt;主讲&lt;/strong&gt;：王菲&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;-学习目标&#34;&gt;🎯 学习目标&lt;/h2&gt;
+&lt;h2 id="-学习目标"&gt;🎯 学习目标&lt;/h2&gt;
 &lt;table&gt;
-	&lt;thead&gt;
-			&lt;tr&gt;
-					&lt;th&gt;目标层次&lt;/th&gt;
-					&lt;th&gt;具体内容&lt;/th&gt;
-			&lt;/tr&gt;
-	&lt;/thead&gt;
-	&lt;tbody&gt;
-			&lt;tr&gt;
-					&lt;td&gt;🔵 &lt;strong&gt;了解&lt;/strong&gt;&lt;/td&gt;
-					&lt;td&gt;云计算的起源、基本概念&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;🟡 &lt;strong&gt;理解&lt;/strong&gt;&lt;/td&gt;
-					&lt;td&gt;虚拟化技术的基本概念、体系结构&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;🟢 &lt;strong&gt;掌握&lt;/strong&gt;&lt;/td&gt;
-					&lt;td&gt;VMware Workstation 安装及虚拟机创建&lt;/td&gt;
-			&lt;/tr&gt;
-	&lt;/tbody&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;目标层次&lt;/th&gt;
+&lt;th&gt;具体内容&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;🔵 &lt;strong&gt;了解&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;云计算的起源、基本概念&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;🟡 &lt;strong&gt;理解&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;虚拟化技术的基本概念、体系结构&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;🟢 &lt;strong&gt;掌握&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;VMware Workstation 安装及虚拟机创建&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
 &lt;/table&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;-课程结构90分钟&#34;&gt;📋 课程结构（90分钟）&lt;/h2&gt;
+&lt;h2 id="-课程结构90分钟"&gt;📋 课程结构（90分钟）&lt;/h2&gt;
 &lt;table&gt;
-	&lt;thead&gt;
-			&lt;tr&gt;
-					&lt;th&gt;时间&lt;/th&gt;
-					&lt;th&gt;环节&lt;/th&gt;
-					&lt;th&gt;内容&lt;/th&gt;
-			&lt;/tr&gt;
-	&lt;/thead&gt;
-	&lt;tbody&gt;
-			&lt;tr&gt;
-					&lt;td&gt;0-5 min&lt;/td&gt;
-					&lt;td&gt;🎬 导入&lt;/td&gt;
-					&lt;td&gt;抛出问题 → 引出云计算&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;5-25 min&lt;/td&gt;
-					&lt;td&gt;📖 1.1&lt;/td&gt;
-					&lt;td&gt;项目陈述：什么是云计算&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;25-55 min&lt;/td&gt;
-					&lt;td&gt;📖 1.2&lt;/td&gt;
-					&lt;td&gt;必备知识：云计算概述 + 虚拟化技术&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;55-80 min&lt;/td&gt;
-					&lt;td&gt;🛠 1.3&lt;/td&gt;
-					&lt;td&gt;项目实施：VMware Workstation 安装&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;80-90 min&lt;/td&gt;
-					&lt;td&gt;📝&lt;/td&gt;
-					&lt;td&gt;总结回顾 + 课后任务&lt;/td&gt;
-			&lt;/tr&gt;
-	&lt;/tbody&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;时间&lt;/th&gt;
+&lt;th&gt;环节&lt;/th&gt;
+&lt;th&gt;内容&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;0-5 min&lt;/td&gt;
+&lt;td&gt;🎬 导入&lt;/td&gt;
+&lt;td&gt;抛出问题 → 引出云计算&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;5-25 min&lt;/td&gt;
+&lt;td&gt;📖 1.1&lt;/td&gt;
+&lt;td&gt;项目陈述：什么是云计算&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;25-55 min&lt;/td&gt;
+&lt;td&gt;📖 1.2&lt;/td&gt;
+&lt;td&gt;必备知识：云计算概述 + 虚拟化技术&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;55-80 min&lt;/td&gt;
+&lt;td&gt;🛠 1.3&lt;/td&gt;
+&lt;td&gt;项目实施：VMware Workstation 安装&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;80-90 min&lt;/td&gt;
+&lt;td&gt;📝&lt;/td&gt;
+&lt;td&gt;总结回顾 + 课后任务&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
 &lt;/table&gt;
 &lt;hr&gt;
-&lt;h1 id=&#34;第一部分项目陈述10-min&#34;&gt;第一部分：项目陈述（10 min）&lt;/h1&gt;
+&lt;h1 id="第一部分项目陈述10-min"&gt;第一部分：项目陈述（10 min）&lt;/h1&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;-课堂导入一个你每天都在经历的场景&#34;&gt;🎬 课堂导入：一个你每天都在经历的场景&lt;/h2&gt;
+&lt;h2 id="-课堂导入一个你每天都在经历的场景"&gt;🎬 课堂导入：一个你每天都在经历的场景&lt;/h2&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;想一想&lt;/strong&gt;：你今天用手机了吗？&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>关于我</title>
-      <link>http://localhost:1313/FeiWang1998.github.io/about/</link>
-      <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/FeiWang1998.github.io/about/</guid>
-      <description>&lt;h2 id=&#34;我是谁&#34;&gt;我是谁？&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;想一想&lt;/strong&gt;：你今天用手机了吗？&lt;/p&gt;</description></item><item><title>关于我</title><link>https://wangfei19986555-wq.github.io/FeiWang1998.github.io/about/</link><pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate><guid>https://wangfei19986555-wq.github.io/FeiWang1998.github.io/about/</guid><description>&lt;h2 id="我是谁"&gt;我是谁？&lt;/h2&gt;
 &lt;p&gt;Faye，一枚大专老师，家有一个可爱女宝，这里是我的自留地，有一些碎碎念和备课资料。&lt;/p&gt;
 &lt;p&gt;主要讲授课程：&lt;/p&gt;
 &lt;ul&gt;
@@ -104,16 +81,9 @@
 &lt;li&gt;机器学习&lt;/li&gt;
 &lt;li&gt;区块链&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;研究方向：可解释人工智能（XAI）、信用评级、联邦学习。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>博客上线！第一篇聊聊云计算</title>
-      <link>http://localhost:1313/FeiWang1998.github.io/posts/2026-06-02-hello-world/</link>
-      <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/FeiWang1998.github.io/posts/2026-06-02-hello-world/</guid>
-      <description>&lt;h2 id=&#34;什么是云计算用大白话讲清楚&#34;&gt;什么是云计算？用大白话讲清楚&lt;/h2&gt;
+&lt;p&gt;研究方向：可解释人工智能（XAI）、信用评级、联邦学习。&lt;/p&gt;</description></item><item><title>博客上线！第一篇聊聊云计算</title><link>https://wangfei19986555-wq.github.io/FeiWang1998.github.io/posts/2026-06-02-hello-world/</link><pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate><guid>https://wangfei19986555-wq.github.io/FeiWang1998.github.io/posts/2026-06-02-hello-world/</guid><description>&lt;h2 id="什么是云计算用大白话讲清楚"&gt;什么是云计算？用大白话讲清楚&lt;/h2&gt;
 &lt;p&gt;如果你觉得&amp;quot;云计算&amp;quot;这个词很高大上，先别急，我给你讲个最接地气的比喻——&lt;/p&gt;
-&lt;h3 id=&#34;从打井到自来水&#34;&gt;从「打井」到「自来水」&lt;/h3&gt;
+&lt;h3 id="从打井到自来水"&gt;从「打井」到「自来水」&lt;/h3&gt;
 &lt;p&gt;以前的人喝水要自己挖井。每家每户都要：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;找地方挖&lt;/li&gt;
@@ -121,29 +91,22 @@
 &lt;li&gt;井坏了自己修&lt;/li&gt;
 &lt;li&gt;旱季水不够用也没办法&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;后来有了自来水公司，你只需要：&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>博客操作指南</title>
-      <link>http://localhost:1313/FeiWang1998.github.io/posts/2026-06-10-%E5%8D%9A%E5%AE%A2%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97/</link>
-      <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/FeiWang1998.github.io/posts/2026-06-10-%E5%8D%9A%E5%AE%A2%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97/</guid>
-      <description>&lt;blockquote&gt;
+&lt;p&gt;后来有了自来水公司，你只需要：&lt;/p&gt;</description></item><item><title>博客操作指南</title><link>https://wangfei19986555-wq.github.io/FeiWang1998.github.io/posts/2026-06-10-%E5%8D%9A%E5%AE%A2%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97/</link><pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate><guid>https://wangfei19986555-wq.github.io/FeiWang1998.github.io/posts/2026-06-10-%E5%8D%9A%E5%AE%A2%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97/</guid><description>&lt;blockquote&gt;
 &lt;p&gt;博客位置：&lt;code&gt;C:\Users\wf980\Desktop\myblog\&lt;/code&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;-文件结构&#34;&gt;🗂 文件结构&lt;/h2&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;myblog/
-├── hugo.toml              ← 📌 博客设置（标题、链接等）
+&lt;h2 id="-文件结构"&gt;🗂 文件结构&lt;/h2&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;myblog/
+├── hugo.toml ← 📌 博客设置（标题、链接等）
 ├── content/
-│   ├── about.md           ← 📌 「关于我」页面
-│   └── posts/
-│       └── xxx.md         ← 📌 每篇文章就是一个 .md 文件
-├── static/                ← 放图片、文件等
-└── .github/workflows/     ← 自动部署配置（不用管）
+│ ├── about.md ← 📌 「关于我」页面
+│ └── posts/
+│ └── xxx.md ← 📌 每篇文章就是一个 .md 文件
+├── static/ ← 放图片、文件等
+└── .github/workflows/ ← 自动部署配置（不用管）
 &lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;
-&lt;h2 id=&#34;-修改文章或页面&#34;&gt;✏️ 修改文章或页面&lt;/h2&gt;
-&lt;h3 id=&#34;操作步骤&#34;&gt;操作步骤&lt;/h3&gt;
+&lt;h2 id="-修改文章或页面"&gt;✏️ 修改文章或页面&lt;/h2&gt;
+&lt;h3 id="操作步骤"&gt;操作步骤&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;用 VS Code 打开 &lt;code&gt;C:\Users\wf980\Desktop\myblog\&lt;/code&gt; 整个文件夹&lt;/li&gt;
 &lt;li&gt;找到要改的文件：
@@ -155,474 +118,454 @@
 &lt;li&gt;直接编辑 Markdown，和写教案一样&lt;/li&gt;
 &lt;li&gt;保存后，浏览器 &lt;code&gt;http://localhost:1313&lt;/code&gt; &lt;strong&gt;自动刷新&lt;/strong&gt;看到效果（需要 Hugo 在运行）&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h3 id=&#34;文章顶部的-yaml-含义&#34;&gt;文章顶部的 YAML 含义&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;8
+&lt;h3 id="文章顶部的-yaml-含义"&gt;文章顶部的 YAML 含义&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;span class="lnt"&gt;4
+&lt;/span&gt;&lt;span class="lnt"&gt;5
+&lt;/span&gt;&lt;span class="lnt"&gt;6
+&lt;/span&gt;&lt;span class="lnt"&gt;7
+&lt;/span&gt;&lt;span class="lnt"&gt;8
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nn&#34;&gt;---&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;文章标题&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;            &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;← 改这里修改标题&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;date&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;ld&#34;&gt;2026-06-02&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;             &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;← 日期&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;draft&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;false&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;                 &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;← false = 发布, true = 草稿（不显示）&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;tags&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;云计算&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;入门&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;← 标签，可以加多个&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;categories&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;云计算&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;← 分类&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;ShowToc&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;                &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;← 是否显示目录&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nn&#34;&gt;---&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-yaml" data-lang="yaml"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nn"&gt;---&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nt"&gt;title&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;文章标题&amp;#34;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;← 改这里修改标题&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nt"&gt;date&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="ld"&gt;2026-06-02&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;← 日期&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nt"&gt;draft&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;false&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;← false = 发布, true = 草稿（不显示）&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nt"&gt;tags&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;云计算&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;入门&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;← 标签，可以加多个&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nt"&gt;categories&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;云计算&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;← 分类&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nt"&gt;ShowToc&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;true&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;← 是否显示目录&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nn"&gt;---&lt;/span&gt;&lt;span class="w"&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;hr&gt;
-&lt;h2 id=&#34;-写一篇新文章&#34;&gt;📝 写一篇新文章&lt;/h2&gt;
-&lt;p&gt;在终端输入：&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>方向分析与建议</title>
-      <link>http://localhost:1313/FeiWang1998.github.io/posts/%E5%89%AF%E4%B8%9A%E6%96%B9%E5%90%91%E5%88%86%E6%9E%90/</link>
-      <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/FeiWang1998.github.io/posts/%E5%89%AF%E4%B8%9A%E6%96%B9%E5%90%91%E5%88%86%E6%9E%90/</guid>
-      <description>&lt;h1 id=&#34;-副业方向分析与建议&#34;&gt;💰 副业方向分析与建议&lt;/h1&gt;
+&lt;h2 id="-写一篇新文章"&gt;📝 写一篇新文章&lt;/h2&gt;
+&lt;p&gt;在终端输入：&lt;/p&gt;</description></item><item><title>方向分析与建议</title><link>https://wangfei19986555-wq.github.io/FeiWang1998.github.io/posts/%E5%89%AF%E4%B8%9A%E6%96%B9%E5%90%91%E5%88%86%E6%9E%90/</link><pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate><guid>https://wangfei19986555-wq.github.io/FeiWang1998.github.io/posts/%E5%89%AF%E4%B8%9A%E6%96%B9%E5%90%91%E5%88%86%E6%9E%90/</guid><description>&lt;h1 id="-副业方向分析与建议"&gt;💰 副业方向分析与建议&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;基于你的背景：高校教师 / AI 机器学习方向 / Python 开发 / 数据分析&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;-个人优势评估&#34;&gt;📊 个人优势评估&lt;/h2&gt;
+&lt;h2 id="-个人优势评估"&gt;📊 个人优势评估&lt;/h2&gt;
 &lt;table&gt;
-	&lt;thead&gt;
-			&lt;tr&gt;
-					&lt;th&gt;技能&lt;/th&gt;
-					&lt;th&gt;水平&lt;/th&gt;
-					&lt;th&gt;变现潜力&lt;/th&gt;
-			&lt;/tr&gt;
-	&lt;/thead&gt;
-	&lt;tbody&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Python 编程&lt;/td&gt;
-					&lt;td&gt;🟢 熟练&lt;/td&gt;
-					&lt;td&gt;⭐⭐⭐⭐⭐&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;机器学习/深度学习&lt;/td&gt;
-					&lt;td&gt;🟢 专业&lt;/td&gt;
-					&lt;td&gt;⭐⭐⭐⭐⭐&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;数据分析（Excel/CSV/Pandas）&lt;/td&gt;
-					&lt;td&gt;🟢 熟练&lt;/td&gt;
-					&lt;td&gt;⭐⭐⭐⭐&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;学术写作/论文发表&lt;/td&gt;
-					&lt;td&gt;🟢 专业&lt;/td&gt;
-					&lt;td&gt;⭐⭐⭐⭐&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Docker/容器技术&lt;/td&gt;
-					&lt;td&gt;🟡 教学级&lt;/td&gt;
-					&lt;td&gt;⭐⭐⭐&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Git/开发工具&lt;/td&gt;
-					&lt;td&gt;🟢 熟练&lt;/td&gt;
-					&lt;td&gt;⭐⭐⭐&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;教学设计/课程开发&lt;/td&gt;
-					&lt;td&gt;🟢 专业&lt;/td&gt;
-					&lt;td&gt;⭐⭐⭐⭐&lt;/td&gt;
-			&lt;/tr&gt;
-	&lt;/tbody&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;技能&lt;/th&gt;
+&lt;th&gt;水平&lt;/th&gt;
+&lt;th&gt;变现潜力&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Python 编程&lt;/td&gt;
+&lt;td&gt;🟢 熟练&lt;/td&gt;
+&lt;td&gt;⭐⭐⭐⭐⭐&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;机器学习/深度学习&lt;/td&gt;
+&lt;td&gt;🟢 专业&lt;/td&gt;
+&lt;td&gt;⭐⭐⭐⭐⭐&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;数据分析（Excel/CSV/Pandas）&lt;/td&gt;
+&lt;td&gt;🟢 熟练&lt;/td&gt;
+&lt;td&gt;⭐⭐⭐⭐&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;学术写作/论文发表&lt;/td&gt;
+&lt;td&gt;🟢 专业&lt;/td&gt;
+&lt;td&gt;⭐⭐⭐⭐&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Docker/容器技术&lt;/td&gt;
+&lt;td&gt;🟡 教学级&lt;/td&gt;
+&lt;td&gt;⭐⭐⭐&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Git/开发工具&lt;/td&gt;
+&lt;td&gt;🟢 熟练&lt;/td&gt;
+&lt;td&gt;⭐⭐⭐&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;教学设计/课程开发&lt;/td&gt;
+&lt;td&gt;🟢 专业&lt;/td&gt;
+&lt;td&gt;⭐⭐⭐⭐&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
 &lt;/table&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;-第一梯队高收益强匹配优先尝试&#34;&gt;🥇 第一梯队：高收益、强匹配（优先尝试）&lt;/h2&gt;
-&lt;h3 id=&#34;1-企业ai技术咨询--项目外包&#34;&gt;1. 企业AI技术咨询 / 项目外包&lt;/h3&gt;
+&lt;h2 id="-第一梯队高收益强匹配优先尝试"&gt;🥇 第一梯队：高收益、强匹配（优先尝试）&lt;/h2&gt;
+&lt;h3 id="1-企业ai技术咨询--项目外包"&gt;1. 企业AI技术咨询 / 项目外包&lt;/h3&gt;
 &lt;table&gt;
-	&lt;thead&gt;
-			&lt;tr&gt;
-					&lt;th&gt;项目&lt;/th&gt;
-					&lt;th&gt;说明&lt;/th&gt;
-			&lt;/tr&gt;
-	&lt;/thead&gt;
-	&lt;tbody&gt;
-			&lt;tr&gt;
-					&lt;td&gt;&lt;strong&gt;做什么&lt;/strong&gt;&lt;/td&gt;
-					&lt;td&gt;为企业提供信用评级模型、数据分析、ML 模型开发等外包服务&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;&lt;strong&gt;目标客户&lt;/strong&gt;&lt;/td&gt;
-					&lt;td&gt;中小银行、金融机构、金融科技公司&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;&lt;strong&gt;收入预期&lt;/strong&gt;&lt;/td&gt;
-					&lt;td&gt;单个项目 5,000–50,000 元&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;&lt;strong&gt;启动方式&lt;/strong&gt;&lt;/td&gt;
-					&lt;td&gt;熟人介绍 → 猪八戒/自由人平台 → 建立口碑&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;&lt;strong&gt;你的优势&lt;/strong&gt;&lt;/td&gt;
-					&lt;td&gt;信用评级正是你的研究方向，有论文和模型经验&lt;/td&gt;
-			&lt;/tr&gt;
-	&lt;/tbody&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;项目&lt;/th&gt;
+&lt;th&gt;说明&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;做什么&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;为企业提供信用评级模型、数据分析、ML 模型开发等外包服务&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;目标客户&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;中小银行、金融机构、金融科技公司&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;收入预期&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;单个项目 5,000–50,000 元&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;启动方式&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;熟人介绍 → 猪八戒/自由人平台 → 建立口碑&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;你的优势&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;信用评级正是你的研究方向，有论文和模型经验&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h3 id=&#34;2-在线课程--知识付费&#34;&gt;2. 在线课程 / 知识付费&lt;/h3&gt;
+&lt;h3 id="2-在线课程--知识付费"&gt;2. 在线课程 / 知识付费&lt;/h3&gt;
 &lt;table&gt;
-	&lt;thead&gt;
-			&lt;tr&gt;
-					&lt;th&gt;项目&lt;/th&gt;
-					&lt;th&gt;说明&lt;/th&gt;
-			&lt;/tr&gt;
-	&lt;/thead&gt;
-	&lt;tbody&gt;
-			&lt;tr&gt;
-					&lt;td&gt;&lt;strong&gt;做什么&lt;/strong&gt;&lt;/td&gt;
-					&lt;td&gt;录制 AI/ML/Python 教学视频，发布到 B 站、慕课、知乎等&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;&lt;strong&gt;形式&lt;/strong&gt;&lt;/td&gt;
-					&lt;td&gt;录播课、直播课、付费专栏、1v1 辅导&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;&lt;strong&gt;收入预期&lt;/strong&gt;&lt;/td&gt;
-					&lt;td&gt;一门课 3,000–30,000 元（看平台和体量）&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;&lt;strong&gt;启动方式&lt;/strong&gt;&lt;/td&gt;
-					&lt;td&gt;B站免费内容攒粉 → 付费课程/知识星球变现&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;&lt;strong&gt;你的优势&lt;/strong&gt;&lt;/td&gt;
-					&lt;td&gt;本身就在教学，课件现成，表达能力强&lt;/td&gt;
-			&lt;/tr&gt;
-	&lt;/tbody&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;项目&lt;/th&gt;
+&lt;th&gt;说明&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;做什么&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;录制 AI/ML/Python 教学视频，发布到 B 站、慕课、知乎等&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;形式&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;录播课、直播课、付费专栏、1v1 辅导&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;收入预期&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;一门课 3,000–30,000 元（看平台和体量）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;启动方式&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;B站免费内容攒粉 → 付费课程/知识星球变现&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;你的优势&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;本身就在教学，课件现成，表达能力强&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h3 id=&#34;3-学术论文服务&#34;&gt;3. 学术论文服务&lt;/h3&gt;
+&lt;h3 id="3-学术论文服务"&gt;3. 学术论文服务&lt;/h3&gt;
 &lt;table&gt;
-	&lt;thead&gt;
-			&lt;tr&gt;
-					&lt;th&gt;项目&lt;/th&gt;
-					&lt;th&gt;说明&lt;/th&gt;
-			&lt;/tr&gt;
-	&lt;/thead&gt;
-	&lt;tbody&gt;
-			&lt;tr&gt;
-					&lt;td&gt;&lt;strong&gt;做什么&lt;/strong&gt;&lt;/td&gt;
-					&lt;td&gt;论文润色、数据分析协助、图表美化、参考文献整理&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;&lt;strong&gt;目标客户&lt;/strong&gt;&lt;/td&gt;
-					&lt;td&gt;其他高校教师、研究生、企事业单位评职称人员&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;&lt;strong&gt;收入预期&lt;/strong&gt;&lt;/td&gt;
-					&lt;td&gt;单篇 500–5,000 元（看服务深度）&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;&lt;strong&gt;注意&lt;/strong&gt;&lt;/td&gt;
-					&lt;td&gt;⚠️ 只做技术辅助，不代写，守住学术底线&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;&lt;strong&gt;你的优势&lt;/strong&gt;&lt;/td&gt;
-					&lt;td&gt;熟悉论文发表全流程，有 .bib 文献管理经验&lt;/td&gt;
-			&lt;/tr&gt;
-	&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;-第二梯队中等收益稳定持续&#34;&gt;🥈 第二梯队：中等收益、稳定持续&lt;/h2&gt;
-&lt;h3 id=&#34;4-企业培训讲师&#34;&gt;4. 企业培训讲师&lt;/h3&gt;
-&lt;table&gt;
-	&lt;thead&gt;
-			&lt;tr&gt;
-					&lt;th&gt;项目&lt;/th&gt;
-					&lt;th&gt;说明&lt;/th&gt;
-			&lt;/tr&gt;
-	&lt;/thead&gt;
-	&lt;tbody&gt;
-			&lt;tr&gt;
-					&lt;td&gt;&lt;strong&gt;做什么&lt;/strong&gt;&lt;/td&gt;
-					&lt;td&gt;为企业做 AI/数据分析/Python 内训&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;&lt;strong&gt;目标客户&lt;/strong&gt;&lt;/td&gt;
-					&lt;td&gt;银行、保险公司、政府单位、大型企业&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;&lt;strong&gt;收入预期&lt;/strong&gt;&lt;/td&gt;
-					&lt;td&gt;半天 2,000–5,000 元，全天 3,000–8,000 元&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;&lt;strong&gt;启动方式&lt;/strong&gt;&lt;/td&gt;
-					&lt;td&gt;培训机构合作、LinkedIn/脉脉、同行推荐&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;&lt;strong&gt;你的优势&lt;/strong&gt;&lt;/td&gt;
-					&lt;td&gt;有「行业老师课酬」经验，已有行业连接&lt;/td&gt;
-			&lt;/tr&gt;
-	&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h3 id=&#34;5-技术写作--翻译&#34;&gt;5. 技术写作 / 翻译&lt;/h3&gt;
-&lt;table&gt;
-	&lt;thead&gt;
-			&lt;tr&gt;
-					&lt;th&gt;项目&lt;/th&gt;
-					&lt;th&gt;说明&lt;/th&gt;
-			&lt;/tr&gt;
-	&lt;/thead&gt;
-	&lt;tbody&gt;
-			&lt;tr&gt;
-					&lt;td&gt;&lt;strong&gt;做什么&lt;/strong&gt;&lt;/td&gt;
-					&lt;td&gt;技术博客、公众号、技术文档中英互译、出书&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;&lt;strong&gt;收入预期&lt;/strong&gt;&lt;/td&gt;
-					&lt;td&gt;文章 200–1,000 元/篇，翻译 80–200 元/千字，出书版税 8%–12%&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;&lt;strong&gt;启动方式&lt;/strong&gt;&lt;/td&gt;
-					&lt;td&gt;投稿技术社区（机器之心、量子位）、接翻译平台订单&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;&lt;strong&gt;你的优势&lt;/strong&gt;&lt;/td&gt;
-					&lt;td&gt;英文论文阅读和写作能力，专业领域词汇量&lt;/td&gt;
-			&lt;/tr&gt;
-	&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h3 id=&#34;6-软件著作权--专利转化&#34;&gt;6. 软件著作权 / 专利转化&lt;/h3&gt;
-&lt;table&gt;
-	&lt;thead&gt;
-			&lt;tr&gt;
-					&lt;th&gt;项目&lt;/th&gt;
-					&lt;th&gt;说明&lt;/th&gt;
-			&lt;/tr&gt;
-	&lt;/thead&gt;
-	&lt;tbody&gt;
-			&lt;tr&gt;
-					&lt;td&gt;&lt;strong&gt;做什么&lt;/strong&gt;&lt;/td&gt;
-					&lt;td&gt;将已有代码/模型申请软著，与学校合作转化&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;&lt;strong&gt;收入预期&lt;/strong&gt;&lt;/td&gt;
-					&lt;td&gt;视转化方式，数万到数十万不等&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;&lt;strong&gt;启动方式&lt;/strong&gt;&lt;/td&gt;
-					&lt;td&gt;整理现有代码项目 → 申请软著 → 找企业合作&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;&lt;strong&gt;提示&lt;/strong&gt;&lt;/td&gt;
-					&lt;td&gt;你桌面有「软著、专利」快捷方式，可能已有积累&lt;/td&gt;
-			&lt;/tr&gt;
-	&lt;/tbody&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;项目&lt;/th&gt;
+&lt;th&gt;说明&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;做什么&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;论文润色、数据分析协助、图表美化、参考文献整理&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;目标客户&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;其他高校教师、研究生、企事业单位评职称人员&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;收入预期&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;单篇 500–5,000 元（看服务深度）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;注意&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;⚠️ 只做技术辅助，不代写，守住学术底线&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;你的优势&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;熟悉论文发表全流程，有 .bib 文献管理经验&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
 &lt;/table&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;-第三梯队低门槛快速见效&#34;&gt;🥉 第三梯队：低门槛、快速见效&lt;/h2&gt;
-&lt;h3 id=&#34;7-竞赛奖金&#34;&gt;7. 竞赛奖金&lt;/h3&gt;
+&lt;h2 id="-第二梯队中等收益稳定持续"&gt;🥈 第二梯队：中等收益、稳定持续&lt;/h2&gt;
+&lt;h3 id="4-企业培训讲师"&gt;4. 企业培训讲师&lt;/h3&gt;
 &lt;table&gt;
-	&lt;thead&gt;
-			&lt;tr&gt;
-					&lt;th&gt;项目&lt;/th&gt;
-					&lt;th&gt;说明&lt;/th&gt;
-			&lt;/tr&gt;
-	&lt;/thead&gt;
-	&lt;tbody&gt;
-			&lt;tr&gt;
-					&lt;td&gt;&lt;strong&gt;做什么&lt;/strong&gt;&lt;/td&gt;
-					&lt;td&gt;参加 Kaggle、天池、Datawhale 等数据竞赛&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;&lt;strong&gt;收入预期&lt;/strong&gt;&lt;/td&gt;
-					&lt;td&gt;Top 10% 奖金 1,000–50,000 元不等&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;&lt;strong&gt;启动方式&lt;/strong&gt;&lt;/td&gt;
-					&lt;td&gt;关注 Kaggle/天池/和鲸社区赛事日历&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;&lt;strong&gt;你的优势&lt;/strong&gt;&lt;/td&gt;
-					&lt;td&gt;机器学习是日常研究内容，模型调参经验丰富&lt;/td&gt;
-			&lt;/tr&gt;
-	&lt;/tbody&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;项目&lt;/th&gt;
+&lt;th&gt;说明&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;做什么&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;为企业做 AI/数据分析/Python 内训&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;目标客户&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;银行、保险公司、政府单位、大型企业&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;收入预期&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;半天 2,000–5,000 元，全天 3,000–8,000 元&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;启动方式&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;培训机构合作、LinkedIn/脉脉、同行推荐&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;你的优势&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;有「行业老师课酬」经验，已有行业连接&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h3 id=&#34;8-自媒体--技术博主&#34;&gt;8. 自媒体 / 技术博主&lt;/h3&gt;
+&lt;h3 id="5-技术写作--翻译"&gt;5. 技术写作 / 翻译&lt;/h3&gt;
 &lt;table&gt;
-	&lt;thead&gt;
-			&lt;tr&gt;
-					&lt;th&gt;项目&lt;/th&gt;
-					&lt;th&gt;说明&lt;/th&gt;
-			&lt;/tr&gt;
-	&lt;/thead&gt;
-	&lt;tbody&gt;
-			&lt;tr&gt;
-					&lt;td&gt;&lt;strong&gt;平台&lt;/strong&gt;&lt;/td&gt;
-					&lt;td&gt;知乎、公众号、B 站、掘金、CSDN&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;&lt;strong&gt;内容方向&lt;/strong&gt;&lt;/td&gt;
-					&lt;td&gt;AI 科普、Python 教程、论文解读、高校教师日常&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;&lt;strong&gt;变现方式&lt;/strong&gt;&lt;/td&gt;
-					&lt;td&gt;广告分成、知识星球、付费咨询、带货（书/课程）&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;&lt;strong&gt;收入预期&lt;/strong&gt;&lt;/td&gt;
-					&lt;td&gt;前期较少，积累 1 万粉后月入 1,000–5,000 元&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;&lt;strong&gt;启动方式&lt;/strong&gt;&lt;/td&gt;
-					&lt;td&gt;每周 1-2 篇，先坚持 3 个月看反馈&lt;/td&gt;
-			&lt;/tr&gt;
-	&lt;/tbody&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;项目&lt;/th&gt;
+&lt;th&gt;说明&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;做什么&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;技术博客、公众号、技术文档中英互译、出书&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;收入预期&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;文章 200–1,000 元/篇，翻译 80–200 元/千字，出书版税 8%–12%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;启动方式&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;投稿技术社区（机器之心、量子位）、接翻译平台订单&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;你的优势&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;英文论文阅读和写作能力，专业领域词汇量&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h3 id=&#34;9-远程兼职--freelance&#34;&gt;9. 远程兼职 / Freelance&lt;/h3&gt;
+&lt;h3 id="6-软件著作权--专利转化"&gt;6. 软件著作权 / 专利转化&lt;/h3&gt;
 &lt;table&gt;
-	&lt;thead&gt;
-			&lt;tr&gt;
-					&lt;th&gt;平台&lt;/th&gt;
-					&lt;th&gt;说明&lt;/th&gt;
-			&lt;/tr&gt;
-	&lt;/thead&gt;
-	&lt;tbody&gt;
-			&lt;tr&gt;
-					&lt;td&gt;&lt;strong&gt;Upwork / Toptal&lt;/strong&gt;&lt;/td&gt;
-					&lt;td&gt;海外平台，单价高（$30–$100/hr），需英语&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;&lt;strong&gt;程序员客栈 / 码市&lt;/strong&gt;&lt;/td&gt;
-					&lt;td&gt;国内平台，Python/ML 项目较多&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;&lt;strong&gt;闲鱼 / 淘宝&lt;/strong&gt;&lt;/td&gt;
-					&lt;td&gt;接小单：爬虫、数据分析、自动化脚本&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;&lt;strong&gt;收入预期&lt;/strong&gt;&lt;/td&gt;
-					&lt;td&gt;月入 2,000–10,000 元（取决于投入时间）&lt;/td&gt;
-			&lt;/tr&gt;
-	&lt;/tbody&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;项目&lt;/th&gt;
+&lt;th&gt;说明&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;做什么&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;将已有代码/模型申请软著，与学校合作转化&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;收入预期&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;视转化方式，数万到数十万不等&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;启动方式&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;整理现有代码项目 → 申请软著 → 找企业合作&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;提示&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;你桌面有「软著、专利」快捷方式，可能已有积累&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
 &lt;/table&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;-行动建议&#34;&gt;📋 行动建议&lt;/h2&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;优先级排序（考虑投入产出比 + 启动难度）：
-
-  🥇 短期（1个月内即可启动）
-  ├── 竞赛 → 已有技能，直接报名
-  ├── 闲鱼接单 → 零门槛，试试水温
-  └── 技术博客 → 从一篇教程开始
-
-  🥈 中期（1-3个月见效）
-  ├── 在线课程 → 整理课件，先录一节试水
-  ├── 企业培训 → 通过现有行业关系拓展
-  └── 学术论文服务 → 从身边同事开始
-
-  🥉 长期（3-6个月建立）
-  ├── 企业AI项目外包 → 需要案例积累
-  ├── 软著/专利转化 → 需要商务谈判
-  └── 自媒体矩阵 → 需要持续输出
+&lt;h2 id="-第三梯队低门槛快速见效"&gt;🥉 第三梯队：低门槛、快速见效&lt;/h2&gt;
+&lt;h3 id="7-竞赛奖金"&gt;7. 竞赛奖金&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;项目&lt;/th&gt;
+&lt;th&gt;说明&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;做什么&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;参加 Kaggle、天池、Datawhale 等数据竞赛&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;收入预期&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Top 10% 奖金 1,000–50,000 元不等&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;启动方式&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;关注 Kaggle/天池/和鲸社区赛事日历&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;你的优势&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;机器学习是日常研究内容，模型调参经验丰富&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id="8-自媒体--技术博主"&gt;8. 自媒体 / 技术博主&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;项目&lt;/th&gt;
+&lt;th&gt;说明&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;平台&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;知乎、公众号、B 站、掘金、CSDN&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;内容方向&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;AI 科普、Python 教程、论文解读、高校教师日常&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;变现方式&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;广告分成、知识星球、付费咨询、带货（书/课程）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;收入预期&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;前期较少，积累 1 万粉后月入 1,000–5,000 元&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;启动方式&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;每周 1-2 篇，先坚持 3 个月看反馈&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id="9-远程兼职--freelance"&gt;9. 远程兼职 / Freelance&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;平台&lt;/th&gt;
+&lt;th&gt;说明&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Upwork / Toptal&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;海外平台，单价高（$30–$100/hr），需英语&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;程序员客栈 / 码市&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;国内平台，Python/ML 项目较多&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;闲鱼 / 淘宝&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;接小单：爬虫、数据分析、自动化脚本&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;收入预期&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;月入 2,000–10,000 元（取决于投入时间）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id="-行动建议"&gt;📋 行动建议&lt;/h2&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;优先级排序（考虑投入产出比 + 启动难度）：
+🥇 短期（1个月内即可启动）
+├── 竞赛 → 已有技能，直接报名
+├── 闲鱼接单 → 零门槛，试试水温
+└── 技术博客 → 从一篇教程开始
+🥈 中期（1-3个月见效）
+├── 在线课程 → 整理课件，先录一节试水
+├── 企业培训 → 通过现有行业关系拓展
+└── 学术论文服务 → 从身边同事开始
+🥉 长期（3-6个月建立）
+├── 企业AI项目外包 → 需要案例积累
+├── 软著/专利转化 → 需要商务谈判
+└── 自媒体矩阵 → 需要持续输出
 &lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;
-&lt;h2 id=&#34;-注意事项&#34;&gt;⚠️ 注意事项&lt;/h2&gt;
+&lt;h2 id="-注意事项"&gt;⚠️ 注意事项&lt;/h2&gt;
 &lt;table&gt;
-	&lt;thead&gt;
-			&lt;tr&gt;
-					&lt;th&gt;风险&lt;/th&gt;
-					&lt;th&gt;建议&lt;/th&gt;
-			&lt;/tr&gt;
-	&lt;/thead&gt;
-	&lt;tbody&gt;
-			&lt;tr&gt;
-					&lt;td&gt;&lt;strong&gt;与本职工作冲突&lt;/strong&gt;&lt;/td&gt;
-					&lt;td&gt;优先保证教学质量，副业用业余时间&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;&lt;strong&gt;学术伦理&lt;/strong&gt;&lt;/td&gt;
-					&lt;td&gt;不代写论文，不做学术造假&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;&lt;strong&gt;学校规定&lt;/strong&gt;&lt;/td&gt;
-					&lt;td&gt;确认学校是否允许兼职/副业（部分学校需报备）&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;&lt;strong&gt;知识产权&lt;/strong&gt;&lt;/td&gt;
-					&lt;td&gt;注意区分职务成果和个人成果&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;&lt;strong&gt;税务合规&lt;/strong&gt;&lt;/td&gt;
-					&lt;td&gt;大额收入需报税，可注册个体户&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;&lt;strong&gt;精力管理&lt;/strong&gt;&lt;/td&gt;
-					&lt;td&gt;建议先选 1-2 个方向深耕，不要同时铺开&lt;/td&gt;
-			&lt;/tr&gt;
-	&lt;/tbody&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;风险&lt;/th&gt;
+&lt;th&gt;建议&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;与本职工作冲突&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;优先保证教学质量，副业用业余时间&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;学术伦理&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;不代写论文，不做学术造假&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;学校规定&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;确认学校是否允许兼职/副业（部分学校需报备）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;知识产权&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;注意区分职务成果和个人成果&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;税务合规&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;大额收入需报税，可注册个体户&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;精力管理&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;建议先选 1-2 个方向深耕，不要同时铺开&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
 &lt;/table&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;-我个人最推荐你尝试的-top-3&#34;&gt;🎯 我个人最推荐你尝试的 Top 3&lt;/h2&gt;
+&lt;h2 id="-我个人最推荐你尝试的-top-3"&gt;🎯 我个人最推荐你尝试的 Top 3&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;企业AI培训/咨询&lt;/strong&gt; — 你已有行业老师课酬经验，客单价高，一次半天顶一个月工资差值&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Kaggle/天池竞赛&lt;/strong&gt; — 和你研究方向完全吻合，既能攒履历又能赚钱，一举两得&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;技术博客 + 知识付费&lt;/strong&gt; — 边际成本低，一篇好文章能持续带来流量和机会&lt;/li&gt;
-&lt;/ol&gt;</description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/FeiWang1998.github.io/posts/%E7%8E%AF%E5%A2%83%E6%89%AB%E6%8F%8F%E6%8A%A5%E5%91%8A/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/FeiWang1998.github.io/posts/%E7%8E%AF%E5%A2%83%E6%89%AB%E6%8F%8F%E6%8A%A5%E5%91%8A/</guid>
-      <description>&lt;h1 id=&#34;-电脑环境扫描报告&#34;&gt;🔍 电脑环境扫描报告&lt;/h1&gt;
+&lt;/ol&gt;</description></item><item><title/><link>https://wangfei19986555-wq.github.io/FeiWang1998.github.io/posts/%E7%8E%AF%E5%A2%83%E6%89%AB%E6%8F%8F%E6%8A%A5%E5%91%8A/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wangfei19986555-wq.github.io/FeiWang1998.github.io/posts/%E7%8E%AF%E5%A2%83%E6%89%AB%E6%8F%8F%E6%8A%A5%E5%91%8A/</guid><description>&lt;h1 id="-电脑环境扫描报告"&gt;🔍 电脑环境扫描报告&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;扫描时间：2026-06-02&lt;br&gt;
 用户目录：&lt;code&gt;C:\Users\wf980&lt;/code&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;-开发工具&#34;&gt;💻 开发工具&lt;/h2&gt;
+&lt;h2 id="-开发工具"&gt;💻 开发工具&lt;/h2&gt;
 &lt;table&gt;
-	&lt;thead&gt;
-			&lt;tr&gt;
-					&lt;th&gt;工具&lt;/th&gt;
-					&lt;th&gt;版本 / 路径&lt;/th&gt;
-			&lt;/tr&gt;
-	&lt;/thead&gt;
-	&lt;tbody&gt;
-			&lt;tr&gt;
-					&lt;td&gt;&lt;strong&gt;Python&lt;/strong&gt;&lt;/td&gt;
-					&lt;td&gt;3.13.5（Anaconda，路径：&lt;code&gt;/d/anaconda3/python&lt;/code&gt;）&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;&lt;strong&gt;Node.js&lt;/strong&gt;&lt;/td&gt;
-					&lt;td&gt;v24.14.0&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;&lt;strong&gt;npm&lt;/strong&gt;&lt;/td&gt;
-					&lt;td&gt;随 Node.js 安装&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;&lt;strong&gt;Git&lt;/strong&gt;&lt;/td&gt;
-					&lt;td&gt;2.47.1.windows.1&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;&lt;strong&gt;VS Code&lt;/strong&gt;&lt;/td&gt;
-					&lt;td&gt;已安装&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;&lt;strong&gt;Cursor&lt;/strong&gt;&lt;/td&gt;
-					&lt;td&gt;已安装&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;&lt;strong&gt;Docker&lt;/strong&gt;&lt;/td&gt;
-					&lt;td&gt;已安装&lt;/td&gt;
-			&lt;/tr&gt;
-	&lt;/tbody&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;工具&lt;/th&gt;
+&lt;th&gt;版本 / 路径&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Python&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;3.13.5（Anaconda，路径：&lt;code&gt;/d/anaconda3/python&lt;/code&gt;）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Node.js&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;v24.14.0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;npm&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;随 Node.js 安装&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Git&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;2.47.1.windows.1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;VS Code&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;已安装&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Cursor&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;已安装&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Docker&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;已安装&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
 &lt;/table&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;-ai-工具&#34;&gt;🤖 AI 工具&lt;/h2&gt;
-&lt;p&gt;你的 AI 编码助手配置相当齐全：&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+&lt;h2 id="-ai-工具"&gt;🤖 AI 工具&lt;/h2&gt;
+&lt;p&gt;你的 AI 编码助手配置相当齐全：&lt;/p&gt;</description></item></channel></rss>
